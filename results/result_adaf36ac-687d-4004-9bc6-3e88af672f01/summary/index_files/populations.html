@@ -1,0 +1,175 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Performance Testing Report</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="leftnavigation">
+<div class="divHeader">NeoLoad Test Report</div>
+<div class="menu_wrapper">
+<div class="item">
+<a href="./summary.html">Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.resultssummary">Results summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.statisticssummary">Statistics Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.hotspots">Hot spots</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.errors">Errors</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.alerts">Alerts</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.all">General statistics</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.transactions">Transaction statistics</a>
+</div>
+<div class="item">
+<a href="./settings.html">Execution context</a>
+</div>
+<div class="item">
+<a href="./servers.html">Servers</a>
+</div>
+<div class="item">
+<a href="./populations.html">Populations</a>
+</div>
+<div class="item">
+<a href="./virtual-users.html">User Paths</a>
+</div>
+<div class="item">
+<a href="./transactions.html">Transactions</a>
+</div>
+<div class="item">
+<a href="./pages.html">Pages</a>
+</div>
+<div class="item">
+<a href="./medias.html">Media Contents</a>
+</div>
+<div class="item">
+<a href="./pushmessages.html">Push messages</a>
+</div>
+<div class="item">
+<a href="./monitors.html">Monitors</a>
+</div>
+<div class="item">
+<a href="./scenario_Stress Test - 40VU.html">Scenario</a>
+</div>
+<div class="title">Main graphs</div>
+<div class="item">
+<a href="./Main graphs_pages.average.html">Average page response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_requests.average.html">Average request response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_transactions.average.html">Average response time (Transactions)</a>
+</div>
+<div class="item">
+<a href="./Main graphs_hits.html">Requests per second</a>
+</div>
+<div class="item">
+<a href="./Main graphs_errors.html">Errors</a>
+</div>
+<div class="item">
+<a href="./Main graphs_throughput.html">Throughput</a>
+</div>
+<div class="item">
+<a href="./Main graphs_pages.average.vu.html">Response time against load</a>
+</div>
+<div class="item">
+<a href="./Main graphs_percentile.html">Distribution of Transaction Durations</a>
+</div>
+</div>
+<div style="float: right;">
+<img style="margin-top: 10px; margin-bottom: 0px; margin-right: 4px" src="./images/logo_tricentis.png"></div>
+</div>
+<div id="content">
+<div class="divHeader">Populations</div>
+<div style="width: 100%; height: 20px;" id="report.graphs">
+<div style="float:left" class="h1" id="statistics_summary_title">Graphs</div>
+</div>
+<div class="wrapper shared" align="center">
+<div align="center">
+<div align="center" class="graph_predefined" style="margin-top: 5px">
+<img src="images/avgDurationPopulations.png" alt="summary"></div>
+<div align="center" class="graph_predefined" style="margin-top: 5px">
+<img src="images/errorsPopulations.png" alt="summary"></div>
+</div>
+</div>
+<div style="width: 100%; height: 20px;" id="report.statistics">
+<div style="float:left" class="h1" id="statistics_summary_title">Statistics</div>
+</div>
+<div class="wrapper shared" align="center">
+<div align="center">
+<table class="populations_table_content_template">
+<tr>
+<th>Population</th><th>Total requests</th><th>Average requests/s</th><th>Avg. Page res. time</th><th>Error rate</th>
+</tr>
+<tr>
+<td class="line2left"><a href="scenario_Stress Test - 40VU.html#population_SearchAgreements - Edge">SearchAgreements - Edge</a></td><td class="line2left">20530 (35.1%)
+        </td><td class="line2left">11.0</td><td class="line2left">0.283s (<span class="goodPercentage">-11.84%</span>)
+        </td><td class="line2left">0% (<span class="goodPercentage">-28.82%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left"><a href="scenario_Stress Test - 40VU.html#population_SearchSuppliers - Edge">SearchSuppliers - Edge</a></td><td class="line1left">6264 (10.72%)
+        </td><td class="line1left">3.3</td><td class="line1left">0.305s (<span class="goodPercentage">-4.98%</span>)
+        </td><td class="line1left">0% (<span class="goodPercentage">-100%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left"><a href="scenario_Stress Test - 40VU.html#population_Navigation - Edge">Navigation - Edge</a></td><td class="line2left">2590 (4.43%)
+        </td><td class="line2left">1.4</td><td class="line2left">0.421s (<span class="badPercentage">+31.2%</span>)
+        </td><td class="line2left">0% (<span class="goodPercentage">-100%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left"><a href="scenario_Stress Test - 40VU.html#population_UpcomingAgreements - Edge">UpcomingAgreements - Edge</a></td><td class="line1left">1932 (3.31%)
+        </td><td class="line1left">1.0</td><td class="line1left">0.466s (<span class="badPercentage">+45.2%</span>)
+        </td><td class="line1left">0% (<span class="goodPercentage">-100%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left"><a href="scenario_Stress Test - 40VU.html#population_SearchAgreements - Chrome">SearchAgreements - Chrome</a></td><td class="line2left">16305 (27.9%)
+        </td><td class="line2left">8.7</td><td class="line2left">0.283s (<span class="goodPercentage">-11.84%</span>)
+        </td><td class="line2left">0% (<span class="goodPercentage">-100%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left"><a href="scenario_Stress Test - 40VU.html#population_SearchSuppliers - Chrome">SearchSuppliers - Chrome</a></td><td class="line1left">6312 (10.8%)
+        </td><td class="line1left">3.4</td><td class="line1left">0.307s (<span class="goodPercentage">-4.36%</span>)
+        </td><td class="line1left">0% (<span class="badPercentage">+594.6%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left"><a href="scenario_Stress Test - 40VU.html#population_Navigation - Chrome">Navigation - Chrome</a></td><td class="line2left">2590 (4.43%)
+        </td><td class="line2left">1.4</td><td class="line2left">0.426s (<span class="badPercentage">+32.7%</span>)
+        </td><td class="line2left">0% (<span class="goodPercentage">-100%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line1left"><a href="scenario_Stress Test - 40VU.html#population_UpcomingAgreements - Chrome">UpcomingAgreements - Chrome</a></td><td class="line1left">1932 (3.31%)
+        </td><td class="line1left">1.0</td><td class="line1left">0.453s (<span class="badPercentage">+41.1%</span>)
+        </td><td class="line1left">0% (<span class="goodPercentage">-100%</span>)
+        </td>
+</tr>
+<tr>
+<td class="line2left">Global</td><td class="line2left">58455 (100%)
+        </td><td class="line2left">31.2</td><td class="line2left">0.321s
+        </td><td class="line2left">0%
+        </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
