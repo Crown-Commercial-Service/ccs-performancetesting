@@ -1,0 +1,47 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/oauth2/v4/token_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - @n@f@t/%resources%/recorded-artifacts/3780d8a7-d5ef-4dd0-9f0e-c1c9081cb939.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="3780d8a7-d5ef-4dd0-9f0e-c1c9081cb939">
+    <embedded-action>09621dea-3e73-4977-a331-c983da85b458</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    eTag="&quot;67efbf10-320&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Fri, 04 Apr 2025 11:14:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/suppliers/static/manifest.json"
+    path="/suppliers/static/manifest.json" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - @n@f@t/%resources%/recorded-artifacts/3780d8a7-d5ef-4dd0-9f0e-c1c9081cb939.zip"
+    recordedResponseCode="200" responseSize="800"
+    serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
+    uid="09621dea-3e73-4977-a331-c983da85b458" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5c9ede9c-d6b2-40bb-9161-aaf6ace0988d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5c9ede9c-d6b2-40bb-9161-aaf6ace0988d.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="manifest"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 10 Apr 2025 11:51:42 GMT&#xd;
+content-type: application/json&#xd;
+content-length: 800&#xd;
+server: nginx&#xd;
+last-modified: Fri, 04 Apr 2025 11:14:24 GMT&#xd;
+etag: "67efbf10-320"&#xd;
+cache-control: public, max-age=86400&#xd;
+accept-ranges: bytes</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

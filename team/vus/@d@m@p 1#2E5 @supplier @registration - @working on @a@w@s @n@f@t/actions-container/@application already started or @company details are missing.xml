@@ -1,0 +1,22 @@
+<if-action
+    name="Application already started or Company details are missing" uid="1a84d59f-f259-492b-b0bc-8fd9e827b22d">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is true.</description>
+        <weighted-embedded-action uid="72b4e0e6-fc98-4e84-b243-13dab2c00f19"/>
+        <weighted-embedded-action uid="d0fda805-9aa1-4913-9622-cd3c56085d47"/>
+        <weighted-embedded-action uid="b51ffb1f-7754-4369-b22e-f608d1f82e0b"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is false.</description>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${PIsThisNewUser}"
+            operand2="Applicant already registered" operator="EQUALS"/>
+        <condition operand1="${pCompanyEvaulNotStarted}"
+            operand2="-todo&quot;>Not started&lt;/strong>" operator="EQUALS"/>
+    </conditions>
+</if-action>

@@ -1,0 +1,77 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/suppliers/frameworks/g-cloud-14/submissions/cloud-hosting/281140/edit/availability-and-resilie"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@m@p 1#2E5 @supplier @registration - @working on @a@w@s @n@f@t/%resources%/recorded-artifacts/78ab501a-61d1-4815-88b6-3967acb317fa.zip"
+    slaProfileEnabled="false" thinkTime="38141"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="78ab501a-61d1-4815-88b6-3967acb317fa">
+    <embedded-action>7deff0ad-637a-4b83-821f-7b2875e12975</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/suppliers/frameworks/g-cloud-14/submissions/cloud-hosting/281140/edit/availability-and-resilience/guaranteed-availability"
+    path="/suppliers/frameworks/g-cloud-14/submissions/cloud-hosting/${pServiceId}/edit/availability-and-resilience/guaranteed-availability"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p 1#2E5 @supplier @registration - @working on @a@w@s @n@f@t/%resources%/recorded-artifacts/78ab501a-61d1-4815-88b6-3967acb317fa.zip"
+    recordedResponseCode="200" responseSize="27009"
+    serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
+    uid="7deff0ad-637a-4b83-821f-7b2875e12975" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_3d7da5c7-3d1b-4a54-bb87-2bb4c4720f2e.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_3d7da5c7-3d1b-4a54-bb87-2bb4c4720f2e.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="csrf_token"
+        regExp="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']csrf_token[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+        regExpAdv="\s[Nn][Aa][Mm][Ee]\s*=\s*[\&quot;']csrf_token[\&quot;'][^>]*\s[vV][Aa][Ll][Uu][Ee]\s*=\s*[\&quot;'](.*?)[\&quot;']"
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="3bc491ad-97e6-4b9d-b600-8e1ef883e449" xpath=""/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/frameworks/g-cloud-14/submissions/cloud-hosting/${pServiceId}"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum"/>
+    <header name="cookie" value="dm_cookies_policy={%22analytics%22:false}"/>
+    <header name="cookie" value="_ga_17955HEHBF=GS1.1.1697714748.1.1.1697715897.0.0.0"/>
+    <header name="cookie" value="_ga=GA1.1.1817447962.1697714749"/>
+    <header name="cookie" value="dm_session=095ec3f2-48a4-4c4e-b156-1d02cd438924.e7i2BeRDFJE69NQOYyu7jTXAPE4"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not_A Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;120&quot;, &quot;Google Chrome&quot;;v=&quot;120&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 27009&#xd;
+date: Mon, 18 Dec 2023 16:06:47 GMT&#xd;
+cache-control: no-cache&#xd;
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src 'self' *.google-analytics.com; object-src 'self' https://assets.digitalmarketplace.service.gov.uk; frame-src 'self' https://assets.digitalmarketplace.service.gov.uk;&#xd;
+dm-request-id: 5a1a0eb66a71449651165f436ca1f521&#xd;
+permissions-policy: interest-cohort=()&#xd;
+server: nginx&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Tue, 17-Dec-2024 16:06:47 GMT; Max-Age=31536000.0; Path=/&#xd;
+set-cookie: dm_session=095ec3f2-48a4-4c4e-b156-1d02cd438924.e7i2BeRDFJE69NQOYyu7jTXAPE4; Expires=Mon, 18-Dec-2023 17:06:47 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+strict-transport-security: max-age=31536000; includeSubdomains&#xd;
+x-b3-spanid: 51165f436ca1f521&#xd;
+x-b3-traceid: 5a1a0eb66a71449651165f436ca1f521&#xd;
+x-content-type-options: nosniff&#xd;
+x-frame-options: DENY&#xd;
+x-vcap-request-id: 5a1a0eb6-6a71-4496-5116-5f436ca1f521&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 04354ce99e843be4590eff596a34d268.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: LHR61-C1&#xd;
+x-amz-cf-id: lLhJxIfOjAeS92dVonWQ4aYVjKhgEgEYtWWG3o9diIUEiqP3WyD7ag==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

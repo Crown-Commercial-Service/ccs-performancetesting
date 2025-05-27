@@ -1,0 +1,112 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/suppliers/frameworks/digital-outcomes-and-specialists-7/submissions/digital-outcomes/280863/co"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_@n@f@t/%resources%/recorded-artifacts/b9305a71-5284-418f-be0b-856eb86c7395.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b9305a71-5284-418f-be0b-856eb86c7395">
+    <embedded-action>2be5db61-6f0f-484e-8053-b6bea5ac6f40</embedded-action>
+    <embedded-action>2b224c57-ab8d-4309-bd9c-b917f8f54626</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/suppliers/frameworks/digital-outcomes-and-specialists-7/submissions/digital-outcomes/280863/complete"
+    path="/suppliers/frameworks/digital-outcomes-and-specialists-7/submissions/digital-outcomes/280863/complete"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_@n@f@t/%resources%/recorded-artifacts/b9305a71-5284-418f-be0b-856eb86c7395.zip"
+    recordedResponseCode="302" responseSize="323"
+    serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
+    uid="2be5db61-6f0f-484e-8053-b6bea5ac6f40" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y3NyZl90b2tlbj1JakpqTTJaaE1EWXhOVEl6WWpKbFptWXhNMkkyTldWa05ESTRZV1E1T1RKa01UUXlNV0psWTJZaS5aX2V5dncuV3ExcERUVVhNempFTUdUb0VqdVdXdXhnMEEw]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_0ea55935-09fb-429f-ae35-e3dd464dc3b4.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_0ea55935-09fb-429f-ae35-e3dd464dc3b4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="csrf_token"
+        recordRawValue="IjJjM2ZhMDYxNTIzYjJlZmYxM2I2NWVkNDI4YWQ5OTJkMTQyMWJlY2Yi.Z_eyvw.Wq1pDTUXMzjEMGToEjuWWuxg0A0"
+        separator="="
+        value="IjJjM2ZhMDYxNTIzYjJlZmYxM2I2NWVkNDI4YWQ5OTJkMTQyMWJlY2Yi.Z_eyvw.Wq1pDTUXMzjEMGToEjuWWuxg0A0" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/frameworks/digital-outcomes-and-specialists-7/submissions/digital-outcomes/280863"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=-z3xCuq5Ao146o3v6wvQ9zwhL6r3a-Y6GjH3cPrPvzE"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://www.nft.marketplace.team"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Thu, 10 Apr 2025 12:00:03 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 323&#xd;
+server: nginx&#xd;
+location: /suppliers/frameworks/digital-outcomes-and-specialists-7/submissions&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Fri, 10 Apr 2026 12:00:03 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=-z3xCuq5Ao146o3v6wvQ9zwhL6r3a-Y6GjH3cPrPvzE; Domain=nft.marketplace.team; Expires=Thu, 10 Apr 2025 13:00:03 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: e0719b835967832c28d1ed24e1210e13&#xd;
+x-b3-traceid: e0719b835967832c28d1ed24e1210e13&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/suppliers/frameworks/digital-outcomes-and-specialists-7/submissions"
+    path="/suppliers/frameworks/digital-outcomes-and-specialists-7/submissions"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_@n@f@t/%resources%/recorded-artifacts/b9305a71-5284-418f-be0b-856eb86c7395.zip"
+    recordedResponseCode="200"
+    refererUid="2be5db61-6f0f-484e-8053-b6bea5ac6f40"
+    responseSize="19044" serverUid="www.nft.marketplace.team"
+    slaProfileEnabled="false" uid="2b224c57-ab8d-4309-bd9c-b917f8f54626" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1d018f25-8330-4624-85d5-ddedaab34c2c.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1d018f25-8330-4624-85d5-ddedaab34c2c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/frameworks/digital-outcomes-and-specialists-7/submissions/digital-outcomes/280863"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=-z3xCuq5Ao146o3v6wvQ9zwhL6r3a-Y6GjH3cPrPvzE"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 10 Apr 2025 12:00:03 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 19044&#xd;
+server: nginx&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Fri, 10 Apr 2026 12:00:03 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=-z3xCuq5Ao146o3v6wvQ9zwhL6r3a-Y6GjH3cPrPvzE; Domain=nft.marketplace.team; Expires=Thu, 10 Apr 2025 13:00:03 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: 950d82d33fefa9c215c523b8652a3c2a&#xd;
+x-b3-traceid: 950d82d33fefa9c215c523b8652a3c2a&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,92 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/g/collect_14"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_ @c@d@p - @n@f@t/%resources%/recorded-artifacts/da5e32ce-ffcb-43f2-b556-9552fb176751.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="da5e32ce-ffcb-43f2-b556-9552fb176751">
+    <embedded-action>0cc712d4-0e86-4d01-a29b-acc17c9f737e</embedded-action>
+    <embedded-action>a894833b-3da2-4f23-b5ef-acd9a0574f7e</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/suppliers/static/stylesheets/application.css"
+    path="/suppliers/static/stylesheets/application.css" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_ @c@d@p - @n@f@t/%resources%/recorded-artifacts/da5e32ce-ffcb-43f2-b556-9552fb176751.zip"
+    recordedResponseCode="200" responseSize="170962"
+    serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
+    uid="0cc712d4-0e86-4d01-a29b-acc17c9f737e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_62e9f24d-b034-4dc1-80e9-3df219c8652b.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_62e9f24d-b034-4dc1-80e9-3df219c8652b.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="74b192912fe61c2a5ab28f2c6c655652" recordRawValue=""
+        separator="" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=n0js0XD4_7D0U2L6cBEd5zYxO1rSzPUmyp_lnydhFqY"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 10 Apr 2025 12:06:16 GMT&#xd;
+content-type: text/css&#xd;
+server: nginx&#xd;
+last-modified: Fri, 04 Apr 2025 11:14:36 GMT&#xd;
+etag: W/"67efbf1c-29bd2"&#xd;
+cache-control: public, max-age=86400&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/javascript; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/suppliers/static/javascripts/application.js"
+    path="/suppliers/static/javascripts/application.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_ @c@d@p - @n@f@t/%resources%/recorded-artifacts/da5e32ce-ffcb-43f2-b556-9552fb176751.zip"
+    recordedResponseCode="200"
+    refererUid="538a4358-8b86-429c-bd91-d11a60dcfc63"
+    responseSize="247465" serverUid="www.nft.marketplace.team"
+    slaProfileEnabled="false" uid="a894833b-3da2-4f23-b5ef-acd9a0574f7e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7c7556c9-db94-48e3-af4c-36d8e20da4db</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7c7556c9-db94-48e3-af4c-36d8e20da4db.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="96db1a96c1194e7857e47b1ca15819f6" recordRawValue=""
+        separator="" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=n0js0XD4_7D0U2L6cBEd5zYxO1rSzPUmyp_lnydhFqY"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://www.nft.marketplace.team"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 10 Apr 2025 12:06:16 GMT&#xd;
+content-type: application/javascript; charset=utf-8&#xd;
+server: nginx&#xd;
+last-modified: Fri, 04 Apr 2025 11:14:34 GMT&#xd;
+etag: W/"67efbf1a-3c6a9"&#xd;
+cache-control: public, max-age=86400&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="2"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

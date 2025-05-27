@@ -1,0 +1,291 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/message"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @messaging @upload/%resources%/recorded-artifacts/6bf25465-639b-4503-8036-ce8828607042.zip"
+    slaProfileEnabled="false" thinkTime="9544"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6bf25465-639b-4503-8036-ce8828607042">
+    <embedded-action>0515ea3b-b803-4390-bee0-d8a1dc5e460b</embedded-action>
+    <embedded-action>55bf5fd2-17ab-436c-b233-8f61dfd701a5</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/message"
+    path="/suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/message"
+    postCharset="iso-8859-1" postType="3"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @messaging @upload/%resources%/recorded-artifacts/6bf25465-639b-4503-8036-ce8828607042.zip"
+    recordedResponseCode="302" responseSize="375"
+    serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
+    uid="0515ea3b-b803-4390-bee0-d8a1dc5e460b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ba7ff36a-df19-467f-a7c0-5508c49446a5.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ba7ff36a-df19-467f-a7c0-5508c49446a5.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/message"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=Ue3iCVyfCd1mD4Ea6XkAcdn5dCGoBl02VIpt8IGrijw"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://www.nft.marketplace.team"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="multipart/form-data; boundary=----WebKitFormBoundarytMc9TbljABAA9QQA"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Thu, 01 May 2025 12:04:24 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 375&#xd;
+server: nginx&#xd;
+location: /suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/review-and-send&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Fri, 01 May 2026 12:04:24 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=Ue3iCVyfCd1mD4Ea6XkAcdn5dCGoBl02VIpt8IGrijw; Domain=nft.marketplace.team; Expires=Thu, 01 May 2025 13:04:24 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: 03f3cb03bfe2a653d51fec03428e8337&#xd;
+x-b3-traceid: 03f3cb03bfe2a653d51fec03428e8337&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <multiparts>
+        <multipart-string name="csrf_token" recordRawValue=""
+            value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-string name="message" recordRawValue=""
+            value="Performance Testing" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file attachedFilename="recorded-resources/filepart.3"
+            contentType="application/octet-stream" filename="" name="attachments-99-file"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_1.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_1.pdf" name="attachments-0-file"/>
+        <multipart-string name="attachments-0-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_2.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_2.pdf" name="attachments-1-file"/>
+        <multipart-string name="attachments-1-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_3.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_3.pdf" name="attachments-2-file"/>
+        <multipart-string name="attachments-2-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_4.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_4.pdf" name="attachments-3-file"/>
+        <multipart-string name="attachments-3-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_5.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_5.pdf" name="attachments-4-file"/>
+        <multipart-string name="attachments-4-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_6.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_6.pdf" name="attachments-5-file"/>
+        <multipart-string name="attachments-5-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_7.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_7.pdf" name="attachments-6-file"/>
+        <multipart-string name="attachments-6-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_8.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_8.pdf" name="attachments-7-file"/>
+        <multipart-string name="attachments-7-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_9.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_9.pdf" name="attachments-8-file"/>
+        <multipart-string name="attachments-8-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_10.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_10.pdf" name="attachments-9-file"/>
+        <multipart-string name="attachments-9-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_11.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_11.pdf" name="attachments-10-file"/>
+        <multipart-string name="attachments-10-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_12.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_12.pdf" name="attachments-11-file"/>
+        <multipart-string name="attachments-11-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_13.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_13.pdf" name="attachments-12-file"/>
+        <multipart-string name="attachments-12-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_14.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_14.pdf" name="attachments-13-file"/>
+        <multipart-string name="attachments-13-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_15.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_15.pdf" name="attachments-14-file"/>
+        <multipart-string name="attachments-14-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_16.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_16.pdf" name="attachments-15-file"/>
+        <multipart-string name="attachments-15-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_17.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_17.pdf" name="attachments-16-file"/>
+        <multipart-string name="attachments-16-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_18.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_18.pdf" name="attachments-17-file"/>
+        <multipart-string name="attachments-17-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_19.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_19.pdf" name="attachments-18-file"/>
+        <multipart-string name="attachments-18-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+        <multipart-string name="attachments-0-csrf_token"
+            recordRawValue="" value="${e_Crsf_TokenID_5}" valueMode="USE_VALUE"/>
+        <multipart-file
+            attachedFilename="recorded-resources/DMP_Test_Plan_Large_20.pdf"
+            contentType="application/pdf"
+            filename="DMP_Test_Plan_Large_20.pdf" name="attachments-19-file"/>
+        <multipart-string name="attachments-19-required"
+            recordRawValue="" value="True" valueMode="USE_VALUE"/>
+    </multiparts>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/review-and-send"
+    path="/suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/review-and-send"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @messaging @upload/%resources%/recorded-artifacts/6bf25465-639b-4503-8036-ce8828607042.zip"
+    recordedResponseCode="200"
+    refererUid="0515ea3b-b803-4390-bee0-d8a1dc5e460b"
+    responseSize="25732" serverUid="www.nft.marketplace.team"
+    slaProfileEnabled="false" uid="55bf5fd2-17ab-436c-b233-8f61dfd701a5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1e55f8b3-8d68-4c44-8121-6b0893545cb5.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1e55f8b3-8d68-4c44-8121-6b0893545cb5.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="e_Crsf_TokenID_6"
+        refererUid="55bf5fd2-17ab-436c-b233-8f61dfd701a5"
+        regExp="hidden&quot; name=&quot;csrf_token&quot; value=&quot;(.*?)&quot;"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="hidden&quot; name=&quot;csrf_token&quot; value=&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="75054c30-a8e7-4507-bbcf-2ca2d5ca3ea2" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/compliance-communications/digital-outcomes-and-specialists-7/create/message"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=Ue3iCVyfCd1mD4Ea6XkAcdn5dCGoBl02VIpt8IGrijw"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 01 May 2025 12:04:24 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 25732&#xd;
+server: nginx&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Fri, 01 May 2026 12:04:24 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=Ue3iCVyfCd1mD4Ea6XkAcdn5dCGoBl02VIpt8IGrijw; Domain=nft.marketplace.team; Expires=Thu, 01 May 2025 13:04:24 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: b19986889e1fb99f717c237e12bef60d&#xd;
+x-b3-traceid: b19986889e1fb99f717c237e12bef60d&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

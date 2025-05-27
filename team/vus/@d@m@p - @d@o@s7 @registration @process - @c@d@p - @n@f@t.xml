@@ -1,0 +1,29 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="GO_TO_NEXT_ITERATION"
+    slaProfileEnabled="false" type="LEGACY" uid="DMP - DOS7 Registration Process - CDP - NFT">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="bc2ee0e0-bd87-42f0-a2c3-e23507a921bd"/>
+        <weighted-embedded-action uid="49d3248f-3f69-4c11-93e3-67f3af8d0769"/>
+        <weighted-embedded-action uid="81f19854-6136-417d-a28e-9591bf5a053b"/>
+        <weighted-embedded-action uid="a5a67b51-e4fe-45fd-84a6-d032f5480386"/>
+        <weighted-embedded-action uid="392692e8-1756-44f3-8952-82438c37f28d"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{"browserRecordedRequestList":[]}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="${pRandomThinkTime}"/>
+</virtual-user>

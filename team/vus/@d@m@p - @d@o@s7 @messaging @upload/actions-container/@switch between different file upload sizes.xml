@@ -1,0 +1,33 @@
+<switch-container condition="${SwitchValue.Value}"
+    name="Switch between different file upload sizes" uid="f94f4158-9fe7-41bd-bec8-c1c8f3071103">
+    <description>${SwitchValue.Value}</description>
+    <case-statement case-break="true"
+        case-uid="2228ae27-6859-4272-9afa-50cae6ce3b61" case-value="1"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="4664c1b8-54ac-4429-8a92-45808f2ff1d0"/>
+    </case-statement>
+    <case-statement case-break="true"
+        case-uid="d880ca06-7348-4333-8f9f-b3d3492045b1" case-value="2"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="ec133d2d-0252-4e7a-acff-bbd149a11410"/>
+    </case-statement>
+    <case-statement case-break="true"
+        case-uid="d880ca06-7348-4333-8f9f-b3d3492045b1" case-value="3"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="4ce16005-cfdb-489d-b773-07bbb21bd618"/>
+    </case-statement>
+    <default-statement element-number="1" execution-type="0"
+        pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+        pacingValue="0" slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed by default when no Case equals the Switch value.</description>
+    </default-statement>
+</switch-container>

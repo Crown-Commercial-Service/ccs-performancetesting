@@ -1,0 +1,117 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/suppliers/central-digital-platform/connect/trading-name"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_ @c@d@p - @n@f@t/%resources%/recorded-artifacts/4135c983-511a-4eb7-b86d-f8a6bd96fb59.zip"
+    slaProfileEnabled="false" thinkTime="21241"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4135c983-511a-4eb7-b86d-f8a6bd96fb59">
+    <embedded-action>dc974f78-13b8-44b6-9668-6ab720aff580</embedded-action>
+    <embedded-action>9743bec0-6d1c-4f44-9e37-b804f30fa17c</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/suppliers/central-digital-platform/connect/trading-name"
+    path="/suppliers/central-digital-platform/connect/trading-name"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_ @c@d@p - @n@f@t/%resources%/recorded-artifacts/4135c983-511a-4eb7-b86d-f8a6bd96fb59.zip"
+    recordedResponseCode="302" responseSize="299"
+    serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
+    uid="dc974f78-13b8-44b6-9668-6ab720aff580" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y3NyZl90b2tlbj1JbUpqWTJJMlpqQmlabVEwWkdWaU9ERXlOV0pqTmpaaVpUSTRZamN6T1ROa1pUSmlOVFk0WWpZaS5aX2UwalEuX3R2NUlEaWFoMU9pY01nMkxHVUxPLTdRN2tnJnRyYWRpbmdfbmFtZV9pc19zYW1lPXllcyZ0cmFkaW5nX25hbWU9]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_cea688e7-f752-4cc4-b887-78b061993cd6.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cea688e7-f752-4cc4-b887-78b061993cd6.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="csrf_token"
+        recordRawValue="ImJjY2I2ZjBiZmQ0ZGViODEyNWJjNjZiZTI4YjczOTNkZTJiNTY4YjYi.Z_e0jQ._tv5IDiah1OicMg2LGULO-7Q7kg"
+        separator="="
+        value="ImJjY2I2ZjBiZmQ0ZGViODEyNWJjNjZiZTI4YjczOTNkZTJiNTY4YjYi.Z_e0jQ._tv5IDiah1OicMg2LGULO-7Q7kg" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="trading_name_is_same" recordRawValue="yes" separator="="
+        value="yes" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="trading_name"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/central-digital-platform/connect/trading-name"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=n0js0XD4_7D0U2L6cBEd5zYxO1rSzPUmyp_lnydhFqY"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://www.nft.marketplace.team"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Thu, 10 Apr 2025 12:08:07 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 299&#xd;
+server: nginx&#xd;
+location: /suppliers/central-digital-platform/connect/confirmation&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Fri, 10 Apr 2026 12:08:07 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=n0js0XD4_7D0U2L6cBEd5zYxO1rSzPUmyp_lnydhFqY; Domain=nft.marketplace.team; Expires=Thu, 10 Apr 2025 13:08:07 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: 423ebf46955263d98011bb126e96fb9d&#xd;
+x-b3-traceid: 423ebf46955263d98011bb126e96fb9d&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/suppliers/central-digital-platform/connect/confirmation"
+    path="/suppliers/central-digital-platform/connect/confirmation"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @d@o@s7 @registration @process - recording_ @c@d@p - @n@f@t/%resources%/recorded-artifacts/4135c983-511a-4eb7-b86d-f8a6bd96fb59.zip"
+    recordedResponseCode="200"
+    refererUid="dc974f78-13b8-44b6-9668-6ab720aff580"
+    responseSize="18730" serverUid="www.nft.marketplace.team"
+    slaProfileEnabled="false" uid="9743bec0-6d1c-4f44-9e37-b804f30fa17c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8d6a2d54-23eb-473d-b880-0ead1111d6c2.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8d6a2d54-23eb-473d-b880-0ead1111d6c2.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/central-digital-platform/connect/trading-name"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=n0js0XD4_7D0U2L6cBEd5zYxO1rSzPUmyp_lnydhFqY"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;135&quot;, &quot;Not-A.Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;135&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 10 Apr 2025 12:08:07 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 18730&#xd;
+server: nginx&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Fri, 10 Apr 2026 12:08:07 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=n0js0XD4_7D0U2L6cBEd5zYxO1rSzPUmyp_lnydhFqY; Domain=nft.marketplace.team; Expires=Thu, 10 Apr 2025 13:08:07 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: 15bb0a557095847b63a1b1d582a8d996&#xd;
+x-b3-traceid: 15bb0a557095847b63a1b1d582a8d996&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

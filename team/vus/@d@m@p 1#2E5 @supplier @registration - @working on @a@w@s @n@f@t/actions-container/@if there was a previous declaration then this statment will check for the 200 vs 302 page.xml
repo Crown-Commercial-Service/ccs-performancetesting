@@ -1,0 +1,18 @@
+<if-action
+    name="If there was a previous declaration then this statment will check for the 200 vs 302 page" uid="02c19a13-a15a-47af-b0d0-cb5a9519132f">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is true.</description>
+        <weighted-embedded-action uid="26fc0a31-1d34-4e59-b050-d8a85fc0038e"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the condition is false.</description>
+    </else-container>
+    <conditions match-type="0">
+        <condition operand1="${pRedirectedOrNot}"
+            operand2="suppliers/frameworks/g-cloud-14/declaration" operator="EQUALS"/>
+    </conditions>
+</if-action>

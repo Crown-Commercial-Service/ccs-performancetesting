@@ -1,0 +1,34 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="GO_TO_NEXT_ITERATION"
+    slaProfileEnabled="false" type="LEGACY" uid="DMP - DOS7 Messaging Upload">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="9b67e5ce-9476-42b2-a5eb-35cb0d597396"/>
+        <weighted-embedded-action uid="8bdcf4c0-d25b-4bbe-9434-7181608a3e32"/>
+        <weighted-embedded-action uid="476e94f5-b688-47e5-94d3-2215ed32db94"/>
+        <weighted-embedded-action uid="c5eeda5f-c9d8-41d7-b9df-3b030d446bfc"/>
+        <weighted-embedded-action uid="0aa83e56-50b4-4c32-bb6d-d64c53941b9c"/>
+        <weighted-embedded-action uid="0d410f9e-e11e-4f5d-9402-5bb349563bb2"/>
+        <weighted-embedded-action uid="3317a1ed-161f-46a0-ba87-12714f0b0e2a"/>
+        <weighted-embedded-action uid="f94f4158-9fe7-41bd-bec8-c1c8f3071103"/>
+        <weighted-embedded-action uid="18b04ca4-375d-4cbe-93de-aaeb53430208"/>
+        <weighted-embedded-action uid="d14c42a7-6693-4d69-a53a-087c8506c0f2"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="${pRandomThinkTime}"/>
+</virtual-user>
