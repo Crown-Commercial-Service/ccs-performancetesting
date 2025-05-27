@@ -1,0 +1,122 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/esop/guest/logout.do" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/shared-containers/@j@a@g @supplier - @logout of @jaegger/%resources%/recorded-artifacts/c2a728a7-6676-4d8f-a3b5-c50dece6e329.zip"
+    slaProfileEnabled="false" thinkTime="${Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c2a728a7-6676-4d8f-a3b5-c50dece6e329">
+    <embedded-action>fa2de971-ea9f-47d4-bd82-747658a6c752</embedded-action>
+    <embedded-action>cce9d511-e06f-4db6-88e7-11e0bd08e059</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/esop/guest/logout.do"
+    path="/esop/guest/logout.do" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@j@a@g @supplier - @logout of @jaegger/%resources%/recorded-artifacts/c2a728a7-6676-4d8f-a3b5-c50dece6e329.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="crowncommercialservice-prep.bravosolution.co.uk"
+    slaProfileEnabled="false" uid="fa2de971-ea9f-47d4-bd82-747658a6c752" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fa2de971-ea9f-47d4-bd82-747658a6c752.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fa2de971-ea9f-47d4-bd82-747658a6c752.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://crowncommercialservice-prep.bravosolution.co.uk/esop/toolkit/negotiation/rfq/detailRfqResponse.do?userAct=publish"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=XPZCSHo9Qsad87cLsqok8pRtCUFjmpKA2h6t15td.ogcadm_lb3; AWSALBAPP-1=_remove_; AWSALBAPP-2=_remove_; AWSALBAPP-3=_remove_; CLUSTER-NODE=ogcadm_lb3; VISITORID=baadaac9-741d-48c2-89a5-f5950151c5af; _tabSessionId=0839740e-1ed2-39a9-a9fb-ec2b86c3562b; VISITOR_ET=baadaac9%3A1747664639438; AWSALBAPP-0=AAAAAAAAAACzdpqKA8DWg8cS7RGq2fK6DcDJ6A1ljn3PoHUrp14iu0uh8gQVWndShpSSCMVa8Qr2MRt/hDCnK3qjpF2usu27Mi4AuyAMQEG05LjhTVAyddNPjnMOT0+KLWL0HJGyVD8qBPU="/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Mon, 19 May 2025 13:54:06 GMT&#xd;
+content-type: text/html; charset=UTF-8&#xd;
+Content-Length: 0&#xd;
+location: https://crowncommercialservice-prep.bravosolution.co.uk/web/login.html?_ncp=1747662846341.29347-1&#xd;
+expires: Thu, 01 Jan 1970 00:00:00 GMT&#xd;
+cache-control: no-cache, private, no-store, must-revalidate&#xd;
+cache-control: post-check=0, pre-check=0&#xd;
+set-cookie: VISITORID=; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; SameSite=None&#xd;
+set-cookie: _tabSessionId=; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; SameSite=None&#xd;
+set-cookie: VISITOR_ET=; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; SameSite=None&#xd;
+x-xss-protection: 0&#xd;
+pragma: no-cache&#xd;
+referrer-policy: origin-when-cross-origin&#xd;
+threadlogidentifier: ogcadm_lb3#Or/PLQ#default task-3567#00125&#xd;
+content-security-policy: default-src http: wss: ws: data: blob: 'self' *.bravosolution.com *.bravosolution.co.uk *.tejari.com *.app.jaggaer.com *.jaggaer.com *.de.jaggaer.com;base-uri 'self'; frame-src blob: *; frame-ancestors 'self' app.pendo.io adopt.pendo.io *.webbo *.bravosolution.com *.bravosolution.co.uk *.app.jaggaer.com *.tejari.com *.jaggaer.com *.de.jaggaer.com *.combinenet.com *.ggap.it; object-src 'self'; script-src 'unsafe-inline' 'unsafe-eval' 'self' *.bravosolution.com *.bravosolution.co.uk *.tejari.com *.app.jaggaer.com *.jaggaer.com *.de.jaggaer.com flash.sncfholding-prod.aws.vsct.fr app.pendo.io adopt.pendo.io pendo-io-static.storage.googleapis.com cdn.pendo.io cnd.pendo.io data.pendo.io pendo-static-5691992481071104.storage.googleapis.com www.google.com www.gstatic.com fonts.gstatic.com www.recaptcha.net ajax.googleapis.com www.google-analytics.com www.googleadservices.com www.googletagmanager.com tagmanager.google.com vcc-na4.8x8.com vcc-na4b.8x8.com feedroll.com feed.mikle.com code.jquery.com maxcdn.bootstrapcdn.com cdn.walkme.com ec.walkme.com playerserver.walkme.com d3sbxpiag177w8.cloudfront.net papi.walkme.com consent.cookiebot.com *.clevy.io cdns.gigya.com doc.tock.ai cdn.cookielaw.org flash.sncfholding-dev.aws.vsct.fr cdn.cookielaw.org *.ggap.it cdn.jsdelivr.net twitter.com platform.twitter.com solve-widget.forethought.ai cdn.syndication.twimg.com data:; style-src 'unsafe-inline' 'self' *.jaggaer.com flash.sncfholding-prod.aws.vsct.fr fonts.googleapis.com tagmanager.google.com maxcdn.bootstrapcdn.com use.fontawesome.com *.clevy.io assets.publishing.service.gov.uk app.pendo.io adopt.pendo.io cdn.pendo.io pendo-static-5691992481071104.storage.googleapis.com cdns.gigya.com doc.tock.ai cdn.cookielaw.org flash.sncfholding-dev.aws.vsct.fr cdn.cookielaw.org *.ggap.it cdn.jsdelivr.net twitter.com platform.twitter.com solve-widget.forethought.ai;&#xd;
+strict-transport-security: max-age=63072000; includeSubDomains; preload&#xd;
+samesite: None&#xd;
+x-powered-by: JAGGAER&#xd;
+x-permitted-cross-domain-policies: none&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+last-modified: Mon, 19 May 2025 13:54:06 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+set-cookie: AWSALBAPP-0=AAAAAAAAAADAwdKFaBTJC0k3fPqMtJcyrYxGtt6qAVhdGZachOKk11I3gCjWZiixvy6Hp+FvIAsE0j821Zkr6nlngXFrPX85Dw+btEAEB+/iH8I7s9UlhsXz/+so1Gc9vPglT+kkluaFPLk=; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure&#xd;
+set-cookie: AWSALBAPP-1=_remove_; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure&#xd;
+set-cookie: AWSALBAPP-2=_remove_; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure&#xd;
+set-cookie: AWSALBAPP-3=_remove_; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/login.html" path="/web/login.html"
+    postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@j@a@g @supplier - @logout of @jaegger/%resources%/recorded-artifacts/c2a728a7-6676-4d8f-a3b5-c50dece6e329.zip"
+    recordedResponseCode="200"
+    refererUid="fa2de971-ea9f-47d4-bd82-747658a6c752"
+    responseSize="6590"
+    serverUid="crowncommercialservice-prep.bravosolution.co.uk"
+    slaProfileEnabled="false" uid="cce9d511-e06f-4db6-88e7-11e0bd08e059" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cce9d511-e06f-4db6-88e7-11e0bd08e059.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cce9d511-e06f-4db6-88e7-11e0bd08e059.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_ncp"
+        recordRawValue="1747662846341.29347-1" separator="="
+        value="1747662846341.29347-1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://crowncommercialservice-prep.bravosolution.co.uk/esop/toolkit/negotiation/rfq/detailRfqResponse.do?userAct=publish"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="AWSALBAPP-1=_remove_; AWSALBAPP-2=_remove_; AWSALBAPP-3=_remove_; CLUSTER-NODE=ogcadm_lb3; AWSALBAPP-0=AAAAAAAAAADAwdKFaBTJC0k3fPqMtJcyrYxGtt6qAVhdGZachOKk11I3gCjWZiixvy6Hp+FvIAsE0j821Zkr6nlngXFrPX85Dw+btEAEB+/iH8I7s9UlhsXz/+so1Gc9vPglT+kkluaFPLk="/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Mon, 19 May 2025 13:54:06 GMT&#xd;
+content-type: text/html&#xd;
+content-length: 6590&#xd;
+cache-control: s-maxage=600, max-age=3600, must-revalidate&#xd;
+set-cookie: CLUSTER-NODE=ogcadm_lb3; Path=/; Secure; HttpOnly; SameSite=None&#xd;
+x-powered-by: JAGGAER&#xd;
+x-permitted-cross-domain-policies: none&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+referrer-policy: origin-when-cross-origin&#xd;
+content-security-policy: default-src http: wss: ws: data: blob: 'self' *.app.jaggaer.com *.jaggaer.com *.bravosolution.com *.bravosolution.co.uk; base-uri 'self'; frame-src blob: *; frame-ancestors 'self' app.pendo.io adopt.pendo.io *.app.jaggaer.com *.jaggaer.com *.bravosolution.com *.bravosolution.co.uk *.ggap.it; object-src 'self'; script-src 'unsafe-inline' 'unsafe-eval' 'self' *.app.jaggaer.com *.jaggaer.com *.bravosolution.com *.bravosolution.co.uk app.pendo.io adopt.pendo.io pendo-io-static.storage.googleapis.com cdn.pendo.io data.pendo.io pendo-static-5691992481071104.storage.googleapis.com www.google.com www.gstatic.com fonts.gstatic.com ajax.googleapis.com www.google-analytics.com www.googleadservices.com www.googletagmanager.com tagmanager.google.com vcc-na4.8x8.com vcc-na4b.8x8.com code.jquery.com maxcdn.bootstrapcdn.com cdn.walkme.com ec.walkme.com playerserver.walkme.com d3sbxpiag177w8.cloudfront.net papi.walkme.com consent.cookiebot.com *.clevy.io cdns.gigya.com doc.tock.ai cdn.cookielaw.org flash.sncfholding-dev.aws.vsct.fr cdn.cookielaw.org *.ggap.it cdn.jsdelivr.net twitter.com platform.twitter.com solve-widget.forethought.ai cdn.syndication.twimg.com data:; style-src 'unsafe-inline' 'self' *.jaggaer.com flash.sncfholding-prod.aws.vsct.fr fonts.googleapis.com tagmanager.google.com maxcdn.bootstrapcdn.com use.fontawesome.com *.clevy.io assets.publishing.service.gov.uk app.pendo.io adopt.pendo.io cdn.pendo.io pendo-static-5691992481071104.storage.googleapis.com cdns.gigya.com doc.tock.ai cdn.cookielaw.org cdn.cookielaw.org *.ggap.it cdn.jsdelivr.net twitter.com platform.twitter.com solve-widget.forethought.ai;&#xd;
+accept-ranges: bytes&#xd;
+last-modified: Thu, 24 Oct 2024 09:46:25 GMT&#xd;
+strict-transport-security: max-age=63072000; includeSubDomains; preload&#xd;
+x-content-type-options: nosniff&#xd;
+set-cookie: AWSALBAPP-0=AAAAAAAAAAC+RfXy5D/A5Q9M9RwDMGXp+VOLUm6Og9sZOSX/qsR9lKsBcsAJs7aPDYSW7+P8KxI/DCNx7wJ83LXNsXODLyat087jh9TthcIialJXfRAuA8aNmo09BQkkhBRFz6RSa3COFOg=; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure&#xd;
+set-cookie: AWSALBAPP-1=_remove_; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure&#xd;
+set-cookie: AWSALBAPP-2=_remove_; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure&#xd;
+set-cookie: AWSALBAPP-3=_remove_; Expires=Mon, 26 May 2025 13:54:06 GMT; Path=/; SameSite=None; Secure</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

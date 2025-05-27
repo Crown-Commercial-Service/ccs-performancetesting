@@ -1,0 +1,18 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    cloudLoadGeneratorId="1722003671209-1909"
+    cloudSessionId="1722003671209" hostname="34.105.182.137:443"
+    loadWeight="1" sapSupport="false" standalone="true"
+    supportWANEmulation="true"
+    uid="5e009aa4-cdf8-44ad-8385-711b67bbb3b6" version="2024.2.0;build=20240606-37">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

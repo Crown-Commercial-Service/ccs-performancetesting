@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/oauth/login"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 @flow - @u@a@t - @awarded_@ready@for@testing_old/%resources%/recorded-artifacts/2ed0ccd5-7313-4d87-8db7-9d745ac04111.zip"
+    slaProfileEnabled="false" thinkTime="13207"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2ed0ccd5-7313-4d87-8db7-9d745ac04111">
+    <embedded-action>3926a874-a7af-43ae-ae88-3e4066f6a7ad</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/oauth/login" path="/oauth/login" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 @flow - @u@a@t - @awarded_@ready@for@testing_old/%resources%/recorded-artifacts/2ed0ccd5-7313-4d87-8db7-9d745ac04111.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="uat-contractawardservice-ui.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="3926a874-a7af-43ae-ae88-3e4066f6a7ad" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c4e4bb4d-a8cb-4f53-8f85-5cd91f271647</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fdd7ce2e-6e4f-48d8-b02f-5550163b4146.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://uat-contractawardservice-ui.crowncommercial.gov.uk/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="_ga_GT18XRFD2Q=GS1.1.1708006948.62.1.1708010802.0.0.0; cas_cookie_preferences=eyJnYUVuYWJsZWQiOnRydWV9; cas_cookie_settings_viewed=true; _cs_c=0; _cs_id=65700f5f-d9fd-ac11-8b1b-8217bc8a3105.1701960325.33.1721656687.1721656649.1717513692.1736124325479.1; _ga_3PBWK3NTHG=GS1.1.1721656649.20.1.1721657568.0.0.0; _ga_SK4BZ95L7T=GS1.1.1721656649.3.1.1721657570.0.0.0; ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; ccs-sso-visitedsites=${e_ClientID}; SESSION=OWQ1ZWU0NDQtMzc5ZS00MjEyLWE5OWQtOTc0ODk5OGJmYThh"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;127&quot;, &quot;Chromium&quot;;v=&quot;127&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Wed, 21 Aug 2024 10:00:49 GMT&#xd;
+Content-Length: 0&#xd;
+location: http://uat-contractawardservice-ui.crowncommercial.gov.uk/oauth2/authorization/ppg&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com/ https://cdnjs.cloudflare.com; frame-ancestors 'self' https://*.crowncommercial.gov.uk</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

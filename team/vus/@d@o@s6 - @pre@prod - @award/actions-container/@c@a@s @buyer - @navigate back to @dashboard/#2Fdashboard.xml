@@ -1,0 +1,51 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/dashboard"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @award/%resources%/recorded-artifacts/50782e51-31a0-40c5-9457-ecfe756bbde9.zip"
+    slaProfileEnabled="false" thinkTime="${Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="50782e51-31a0-40c5-9457-ecfe756bbde9">
+    <embedded-action>9fe332bc-d4dd-46d1-af5f-eefa74bcec6f</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/dashboard" path="/dashboard" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @award/%resources%/recorded-artifacts/50782e51-31a0-40c5-9457-ecfe756bbde9.zip"
+    recordedResponseCode="200" responseSize="102390"
+    serverUid="pre.redirect.contractawardservice.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="9fe332bc-d4dd-46d1-af5f-eefa74bcec6f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_fcc379c1-42c3-44d5-8f9d-df4c5bc07f46.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fcc379c1-42c3-44d5-8f9d-df4c5bc07f46.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://pre.redirect.contractawardservice.crowncommercial.gov.uk/project/${e_ProjectID}/event/${e_EventID_2}/overview"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:false,&quot;marketing&quot;:false,&quot;cs&quot;:false}; ccs-sso-visitedsites=${e_ClientID}; SESSION=YzM2NGQ5ZmItYjQ2YS00MDUzLTkyMTItNTBjMTk4OWEwZmMy; AWSALB=GFHc5sJCoIn0Rz8m9eToqL24vOEhfSXOdX0QqS+VJ7pwkOkxlOz97rrZhOE//ANvEB4hfnbGFqiV3UT6AnHWhKsEnBOaUH8S/Tnval2fr/RjBfD/vSdRJc/r4rxt; AWSALBCORS=GFHc5sJCoIn0Rz8m9eToqL24vOEhfSXOdX0QqS+VJ7pwkOkxlOz97rrZhOE//ANvEB4hfnbGFqiV3UT6AnHWhKsEnBOaUH8S/Tnval2fr/RjBfD/vSdRJc/r4rxt"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 24 Oct 2024 12:09:50 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+set-cookie: AWSALB=t0X7xB8llBLNMhJ+FYLoOC8ANxqsOs6rfb5FWNJVYEUa4n3t7D0IwELHDFTGQgihB/isAmZAk2jEzlkFGbOfpXbTrpEnDWPZCFOV2GIfzbGyq732ndTpNFDScJfV; Expires=Thu, 31 Oct 2024 12:09:49 GMT; Path=/&#xd;
+set-cookie: AWSALBCORS=t0X7xB8llBLNMhJ+FYLoOC8ANxqsOs6rfb5FWNJVYEUa4n3t7D0IwELHDFTGQgihB/isAmZAk2jEzlkFGbOfpXbTrpEnDWPZCFOV2GIfzbGyq732ndTpNFDScJfV; Expires=Thu, 31 Oct 2024 12:09:49 GMT; Path=/; SameSite=None; Secure&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com/ https://cdnjs.cloudflare.com; frame-ancestors 'self' https://*.crowncommercial.gov.uk&#xd;
+content-language: en-US</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
