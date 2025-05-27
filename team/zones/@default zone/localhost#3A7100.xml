@@ -1,0 +1,28 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="fbd17c1c-ec5e-47a2-86b6-0052e31bbdc0" version="2024.2.0;build=20240606-37">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Microsoft Hyper-V Network Adapter #2"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="ccstesting-win1.lhnvarfyrdaexfiiuichlg34pg.zx.internal.cloudapp.net">
+            <ip value="192.168.1.4"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:1d2c:2fa8:5001:4fa2%eth3">
+            <ip value="fe80:0:0:0:1d2c:2fa8:5001:4fa2%eth3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
