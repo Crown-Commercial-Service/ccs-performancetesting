@@ -1,0 +1,31 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="GO_TO_NEXT_ITERATION"
+    slaProfileEnabled="false" type="LEGACY" uid="UAT - Search Agreements - GCloud13 - Discontinued">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="ca1072da-2576-46f1-baa3-6942d8ff3ac6"/>
+        <weighted-embedded-action uid="259f30bd-ed2c-4252-b4c3-fafe1905ff36"/>
+        <weighted-embedded-action uid="7806f719-4717-42ad-9ef0-217bfd568b9b"/>
+        <weighted-embedded-action uid="2424827d-6595-467f-bb9d-bdfc9f0acac4"/>
+        <weighted-embedded-action uid="8278048b-0ca7-4827-ad29-ff7bb316a915"/>
+        <weighted-embedded-action uid="4c44811f-37a0-45cf-ab2a-fa88acaf1641"/>
+        <weighted-embedded-action uid="b82bfb50-74a8-4a02-bb47-6f03cc9e03a4"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

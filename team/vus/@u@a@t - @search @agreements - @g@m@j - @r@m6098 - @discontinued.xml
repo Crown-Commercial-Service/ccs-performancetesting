@@ -1,0 +1,35 @@
+<virtual-user errorPolicy="GO_TO_NEXT_ITERATION"
+    failedAssertionPolicy="GO_TO_NEXT_ITERATION"
+    slaProfileEnabled="false" type="LEGACY" uid="UAT - Search Agreements - GMJ - RM6098 - Discontinued">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="b7b03e8e-18ad-4ebc-bc3d-804575da6560"/>
+        <weighted-embedded-action uid="35501607-21db-404b-abf1-6032870abb0e"/>
+        <weighted-embedded-action uid="17d86b66-2161-4c27-8cbb-c40bc7e954d8"/>
+        <weighted-embedded-action uid="acc9b828-7ba4-4b91-b48f-95ebf04857b2"/>
+        <weighted-embedded-action uid="71069617-fafb-463e-ad44-e5712ec7ac24"/>
+        <weighted-embedded-action uid="72858842-0b2d-4f25-a9f5-ae6ce83aab32"/>
+        <weighted-embedded-action uid="096470aa-3917-4f95-a5e8-3f4a2f1306b3"/>
+        <weighted-embedded-action uid="25d58cb1-fda9-4658-8354-ed91e8b4f231"/>
+        <weighted-embedded-action uid="ba133de9-7e08-430a-aba2-7d6863e3b942"/>
+        <weighted-embedded-action uid="2f59bcf8-fc87-41a7-9195-d356837be7a8"/>
+        <weighted-embedded-action uid="541f45a0-1d00-4830-baf3-0bfa29fb25ee"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

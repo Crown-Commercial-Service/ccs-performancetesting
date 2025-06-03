@@ -1,0 +1,841 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    slaProfileEnabled="false" thinkTime="${Page_Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a6469675-786b-42b0-a24e-baa329c889e4">
+    <embedded-action>ee39d654-95c3-4fc6-9744-e62e58ecd5c1</embedded-action>
+    <embedded-action>d95a12b4-1906-441c-8b87-5ffb3893b2e1</embedded-action>
+    <embedded-action>4b025e97-2998-4a3b-8a56-402afae1151d</embedded-action>
+    <embedded-action>5085ec55-25d3-4292-b2b5-34a69aa66dd9</embedded-action>
+    <embedded-action>da8580e8-f6c8-42b7-8b1c-9efa9494a855</embedded-action>
+    <embedded-action>f3d167a3-e980-4119-9711-e0a44c3d5e5f</embedded-action>
+    <embedded-action>6505318a-6986-45ce-9ec6-4393833cd76c</embedded-action>
+    <embedded-action>5af91add-be08-4776-aa12-78fe01a58141</embedded-action>
+    <embedded-action>484a5e62-1b88-4dee-8be9-73b2534cc968</embedded-action>
+    <embedded-action>ddaa4d93-5961-49bb-9034-5fc6fffefe98</embedded-action>
+    <embedded-action>68d744b7-8b40-4a53-b5df-9ed61cdeae05</embedded-action>
+    <embedded-action>42dbd265-690f-496c-94fe-ca6d132e1bcd</embedded-action>
+    <embedded-action>9b17b380-273a-4046-a249-c12d41c464e7</embedded-action>
+    <embedded-action>d6e937c2-aa5e-42e1-a12a-8a6bcb64c6de</embedded-action>
+    <embedded-action>804f597d-60fe-47c5-a875-4e808c5cc93c</embedded-action>
+    <embedded-action>cb0a4a0c-6f26-42d1-9bd0-b97c269426ef</embedded-action>
+    <embedded-action>f0877d0c-03ae-417d-9788-20ed0b16a99c</embedded-action>
+    <embedded-action>e6c47921-a884-456d-94be-29e6da71ffbe</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="52975"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ee39d654-95c3-4fc6-9744-e62e58ecd5c1.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ee39d654-95c3-4fc6-9744-e62e58ecd5c1.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="e_AccountID"
+        refererUid="b65546c8-d4f9-4dbe-a0c0-293b72be9f88"
+        regExp="piAId = '(.*?)'" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="piAId = '" template="$1$" templateAdv="$1$"
+        uid="0e6cd460-1abe-4eb5-b7a2-dcc44ebf3039" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;/title>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="e_CrownCommercialService"
+        refererUid="375ae343-9c0e-4b2a-85e7-1ecaf87cb7f7"
+        regExp="&lt;title>(.*?)&lt;/title>" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="&lt;title>"
+        template="$1$" templateAdv="$1$"
+        uid="6b0a52d2-8ea5-4c71-b2d9-242a0a060010" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: text/html; charset=UTF-8&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+cache-control: no-cache, private&#xd;
+x-robots-tag: noindex&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/styles/styles.min.css"
+    path="/assets/styles/styles.min.css" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="211791"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="d95a12b4-1906-441c-8b87-5ffb3893b2e1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d95a12b4-1906-441c-8b87-5ffb3893b2e1.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d95a12b4-1906-441c-8b87-5ffb3893b2e1.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.73" separator="=" value="1.73" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: text/css&#xd;
+content-length: 28760&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:20 GMT&#xd;
+etag: "33b4f-636a8b76c5600-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/scripts/dataLayer.js"
+    path="/assets/scripts/dataLayer.js" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200"
+    refererUid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1"
+    responseSize="4158" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="4b025e97-2998-4a3b-8a56-402afae1151d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4b025e97-2998-4a3b-8a56-402afae1151d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4b025e97-2998-4a3b-8a56-402afae1151d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1.0" separator="=" value="1.0" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 1419&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:13 GMT&#xd;
+etag: "103e-636a8b7018640-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/scripts/libraries/cookies-opt-in.js"
+    path="/assets/scripts/libraries/cookies-opt-in.js" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200"
+    refererUid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1"
+    responseSize="18282" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="5085ec55-25d3-4292-b2b5-34a69aa66dd9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5085ec55-25d3-4292-b2b5-34a69aa66dd9</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5085ec55-25d3-4292-b2b5-34a69aa66dd9.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="3.0.4" separator="=" value="3.0.4" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 5913&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:14 GMT&#xd;
+etag: "476a-636a8b710c880-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="5"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/images/CCS_WHITE_UPDATED_AW.png"
+    path="/assets/images/CCS_WHITE_UPDATED_AW.png" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="da8580e8-f6c8-42b7-8b1c-9efa9494a855" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_da8580e8-f6c8-42b7-8b1c-9efa9494a855.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: image/png&#xd;
+content-length: 14807&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:18 GMT&#xd;
+etag: "39d7-636a8b74dd180"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/scripts/all.js"
+    path="/assets/scripts/all.js" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200"
+    refererUid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1"
+    responseSize="42867" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="f3d167a3-e980-4119-9711-e0a44c3d5e5f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_f3d167a3-e980-4119-9711-e0a44c3d5e5f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_f3d167a3-e980-4119-9711-e0a44c3d5e5f.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="2.3" separator="=" value="2.3" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://webuat.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 10002&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:11 GMT&#xd;
+etag: "a773-636a8b6e301c0-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="12"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/scripts/libraries/jquery-3.6.0.min.js"
+    path="/assets/scripts/libraries/jquery-3.6.0.min.js" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200"
+    refererUid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1"
+    responseSize="91996" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="6505318a-6986-45ce-9ec6-4393833cd76c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6505318a-6986-45ce-9ec6-4393833cd76c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6505318a-6986-45ce-9ec6-4393833cd76c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 31753&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:22 GMT&#xd;
+etag: "1675c-636a8b78ada80-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="7"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/assets/scripts/libraries/objectFitPolyfill.min.js"
+    path="/assets/scripts/libraries/objectFitPolyfill.min.js"
+    postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200"
+    refererUid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1"
+    responseSize="3311" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="5af91add-be08-4776-aa12-78fe01a58141" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5af91add-be08-4776-aa12-78fe01a58141</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5af91add-be08-4776-aa12-78fe01a58141.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 1360&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:22 GMT&#xd;
+etag: "cef-636a8b78ada80-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="8"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/scripts/app.js"
+    path="/assets/scripts/app.js" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200"
+    refererUid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1"
+    responseSize="4344" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="484a5e62-1b88-4dee-8be9-73b2534cc968" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_484a5e62-1b88-4dee-8be9-73b2534cc968</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_484a5e62-1b88-4dee-8be9-73b2534cc968.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="2.4" separator="=" value="2.4" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 1299&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:13 GMT&#xd;
+etag: "10f8-636a8b7018640-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="9"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/images/icon-search.png"
+    path="/assets/images/icon-search.png" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="ddaa4d93-5961-49bb-9034-5fc6fffefe98" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_ddaa4d93-5961-49bb-9034-5fc6fffefe98.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.73"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: image/png&#xd;
+content-length: 449&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:16 GMT&#xd;
+etag: "1c1-636a8b72f4d00"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/svg/help.svg" path="/assets/svg/help.svg"
+    postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="1123"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="68d744b7-8b40-4a53-b5df-9ed61cdeae05" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_68d744b7-8b40-4a53-b5df-9ed61cdeae05.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_68d744b7-8b40-4a53-b5df-9ed61cdeae05.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.73"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: image/svg+xml&#xd;
+content-length: 1123&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:12 GMT&#xd;
+etag: "463-636a8b6f24400"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/fonts/SourceSansPro-Regular.woff2"
+    path="/assets/fonts/SourceSansPro-Regular.woff2" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="42dbd265-690f-496c-94fe-ca6d132e1bcd" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_42dbd265-690f-496c-94fe-ca6d132e1bcd.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.73"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://webuat.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-length: 87612&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:10 GMT&#xd;
+etag: "1563c-636a8b6d3bf80"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/fonts/SourceSansPro-Bold.woff2"
+    path="/assets/fonts/SourceSansPro-Bold.woff2" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="9b17b380-273a-4046-a249-c12d41c464e7" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_9b17b380-273a-4046-a249-c12d41c464e7.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.73"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://webuat.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-length: 85604&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:10 GMT&#xd;
+etag: "14e64-636a8b6d3bf80"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/fonts/SourceSansPro-SemiBold.woff2"
+    path="/assets/fonts/SourceSansPro-SemiBold.woff2" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="d6e937c2-aa5e-42e1-a12a-8a6bcb64c6de" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_d6e937c2-aa5e-42e1-a12a-8a6bcb64c6de.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.73"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://webuat.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-length: 86328&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:10 GMT&#xd;
+etag: "15138-636a8b6d3bf80"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/images/govuk-crest.png"
+    path="/assets/images/govuk-crest.png" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="804f597d-60fe-47c5-a875-4e808c5cc93c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_804f597d-60fe-47c5-a875-4e808c5cc93c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.73"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: image/png&#xd;
+content-length: 62045&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:20 GMT&#xd;
+etag: "f25d-636a8b76c5600"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/scripts/all.js_1"
+    path="/assets/scripts/all.js" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200"
+    refererUid="ee39d654-95c3-4fc6-9744-e62e58ecd5c1"
+    responseSize="42867" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="cb0a4a0c-6f26-42d1-9bd0-b97c269426ef" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cb0a4a0c-6f26-42d1-9bd0-b97c269426ef</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cb0a4a0c-6f26-42d1-9bd0-b97c269426ef.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; visitor_id811463=370150810; visitor_id811463-hash=2cc2806d9ba6a5fef20a3190e6551162737f09df4674f9966611cdb9d696f0a86edf41f5d465e54d265603f831d4e1841dae040f; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://webuat.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=1"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 03 Jun 2025 11:14:54 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 10002&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+content-security-policy-report-only: default-src blob:; img-src 'self' www.googletagmanager.com www.google-analytics.com www.google.co.uk www.google.com px.ads.linkedin.com; script-src 'self' 'unsafe-inline' blob: www.googletagmanager.com tagmanager.google.com www.google-analytics.com region1.analytics.google.com region2.analytics.google.com googleads.g.doubleclick.net snap.licdn.com www.google.co.uk ssl.google-analytics.com stats.g.doubleclick.net cdn.linkedin cdn2.gbqofs.com report.crown-comm.gbqofs.io; connect-src www.google-analytics.com www.google.co.uk region1.analytics.google.com region2.analytics.google.com cdn.linkedin stats.g.doubleclick.net cdn2.gbqofs.com report.crown-comm.gbqofs.io; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com tagmanager.google.com; object-src 'none'; report-to https://neypx8roc8.execute-api.eu-west-2.amazonaws.com/prod/report&#xd;
+last-modified: Tue, 03 Jun 2025 10:55:11 GMT&#xd;
+etag: "a773-636a8b6e301c0-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="12"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/wp-content/uploads/Caution-tape-320x213.jpg"
+    path="/wp-content/uploads/Caution-tape-320x213.jpg" postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="assets.webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="f0877d0c-03ae-417d-9788-20ed0b16a99c" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_f0877d0c-03ae-417d-9788-20ed0b16a99c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/jpeg&#xd;
+content-length: 14611&#xd;
+date: Tue, 03 Jun 2025 11:14:56 GMT&#xd;
+last-modified: Tue, 15 Apr 2025 15:29:58 GMT&#xd;
+etag: "e1eca7f334742ed79fc0d49ae0fc00c1"&#xd;
+x-amz-server-side-encryption: AES256&#xd;
+x-amz-version-id: DmH__IlcmGutWLDi91EkmWnGG7a4M8Mc&#xd;
+accept-ranges: bytes&#xd;
+server: AmazonS3&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 c69adeddb0c066686b454e09f7b12bc6.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: LHR61-P7&#xd;
+x-amz-cf-id: qlHuoA5E658mj5RJqOicGLFHXmMpYdvhxNVRdbQp9Nl36iIRMYV6aQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/wp-content/uploads/GettyImages-1439247571-320x213.jpg"
+    path="/wp-content/uploads/GettyImages-1439247571-320x213.jpg"
+    postType="6"
+    recordedArtifactZipFileName="team/shared-containers/@navigate/%resources%/recorded-artifacts/a6469675-786b-42b0-a24e-baa329c889e4.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="assets.webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="e6c47921-a884-456d-94be-29e6da71ffbe" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_e6c47921-a884-456d-94be-29e6da71ffbe.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748948817.1748946868.1717513692.1765575614471.1.x; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949134$j50$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949134$j50$l0$h0; _cs_s=18.5.0.9.1748951060947"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/jpeg&#xd;
+content-length: 9182&#xd;
+date: Tue, 03 Jun 2025 11:14:56 GMT&#xd;
+last-modified: Fri, 04 Oct 2024 09:55:34 GMT&#xd;
+etag: "6849a6fafc591186e362293c7087aa23"&#xd;
+x-amz-server-side-encryption: AES256&#xd;
+x-amz-version-id: KYPv0PSwFKutbtOlOrjvzFtcomj5vDVh&#xd;
+accept-ranges: bytes&#xd;
+server: AmazonS3&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 c69adeddb0c066686b454e09f7b12bc6.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: LHR61-P7&#xd;
+x-amz-cf-id: L4y4T2o-jFdaKBf5H5xaFsAUyMIIr4e7UFhHskJupniSFWTPfnMciQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

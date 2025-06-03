@@ -1,0 +1,199 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/agreements"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @g@m@j - @r@m6098 - @discontinued/%resources%/recorded-artifacts/28012709-8c26-45d5-bc07-5bd16ab78e0c.zip"
+    slaProfileEnabled="false" thinkTime="${Page_Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="28012709-8c26-45d5-bc07-5bd16ab78e0c">
+    <embedded-action>78c60a35-ce23-4a48-801c-c5432ebe2910</embedded-action>
+    <embedded-action>fb38e9d0-7eb2-4184-b149-38e0ea1137ac</embedded-action>
+    <embedded-action>38746249-11f0-4b00-bcfc-690b02933461</embedded-action>
+    <embedded-action>a39c6f6b-5c14-4563-b851-c53d4f7c0be6</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/agreements" path="/agreements" postType="6"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @g@m@j - @r@m6098 - @discontinued/%resources%/recorded-artifacts/28012709-8c26-45d5-bc07-5bd16ab78e0c.zip"
+    recordedResponseCode="200" responseSize="114622"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="78c60a35-ce23-4a48-801c-c5432ebe2910" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cf9d6de3-226c-452a-9969-20f5f122da25.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cf9d6de3-226c-452a-9969-20f5f122da25.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;/title>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="e_SearchAgreements"
+        refererUid="e3277d40-f9a9-4b65-8020-a58617efd445"
+        regExp="&lt;title>(.*?)&lt;/title>" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="&lt;title>"
+        template="$1$" templateAdv="$1$"
+        uid="6dcd3361-0f21-48d2-98a3-bd30df2b5714" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.1.1731411614.1731411614.1717513692.1765575614471.1; _uetsid=e1effe40a0ea11efb8ad9d37845bcebd; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _ga=GA1.1.832150439.1731411615; _gcl_au=1.1.1776991869.1731411615; _ga_SK4BZ95L7T=GS1.1.1731411614.1.1.1731411644.0.0.0; _ga_3PBWK3NTHG=GS1.1.1731411614.1.1.1731411644.0.0.0; visitor_id811463=${e_VistorID}; visitor_id811463-hash=c${e_VistorSignID}; PHPSESSID=396a41b377649e84c1ddc8daa8ba8c9a"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 12 Nov 2024 13:16:28 GMT&#xd;
+content-type: text/html; charset=UTF-8&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+cache-control: no-cache, private&#xd;
+x-robots-tag: noindex&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    eTag="&quot;69e4a-6369804ef8980-gzip&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 02 Jun 2025 15:00:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/scripts/libraries/vue.js"
+    path="/assets/scripts/libraries/vue.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @g@m@j - @r@m6098 - @discontinued/%resources%/recorded-artifacts/28012709-8c26-45d5-bc07-5bd16ab78e0c.zip"
+    recordedResponseCode="200"
+    refererUid="78c60a35-ce23-4a48-801c-c5432ebe2910"
+    responseSize="433738" serverUid="webuat.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="fb38e9d0-7eb2-4184-b149-38e0ea1137ac" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_26a5149d-d9fd-466b-9035-e0243c0f52ff</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_26a5149d-d9fd-466b-9035-e0243c0f52ff.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/agreements"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.1.1731411614.1731411614.1717513692.1765575614471.1; _uetsid=e1effe40a0ea11efb8ad9d37845bcebd; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _ga=GA1.1.832150439.1731411615; _gcl_au=1.1.1776991869.1731411615; _ga_SK4BZ95L7T=GS1.1.1731411614.1.1.1731411644.0.0.0; _ga_3PBWK3NTHG=GS1.1.1731411614.1.1.1731411644.0.0.0; visitor_id811463=${e_VistorID}; visitor_id811463-hash=c${e_VistorSignID}; PHPSESSID=396a41b377649e84c1ddc8daa8ba8c9a"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=2"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 12 Nov 2024 13:16:28 GMT&#xd;
+content-type: application/javascript&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+last-modified: Tue, 12 Nov 2024 10:22:38 GMT&#xd;
+etag: "69e4a-626b498b17780-gzip"&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-encoding: gzip&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="6"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;f4-6369804ef8980&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Mon, 02 Jun 2025 15:00:06 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/svg/icon-cross--dark.svg"
+    path="/assets/svg/icon-cross--dark.svg" postType="6"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @g@m@j - @r@m6098 - @discontinued/%resources%/recorded-artifacts/28012709-8c26-45d5-bc07-5bd16ab78e0c.zip"
+    recordedResponseCode="200" responseSize="244"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="38746249-11f0-4b00-bcfc-690b02933461" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b40fdc0f-33ee-48a2-9751-0ade2ff4d132.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b40fdc0f-33ee-48a2-9751-0ade2ff4d132.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.65"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.1.1731411614.1731411614.1717513692.1765575614471.1; _uetsid=e1effe40a0ea11efb8ad9d37845bcebd; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _ga=GA1.1.832150439.1731411615; _gcl_au=1.1.1776991869.1731411615; _ga_SK4BZ95L7T=GS1.1.1731411614.1.1.1731411644.0.0.0; _ga_3PBWK3NTHG=GS1.1.1731411614.1.1.1731411644.0.0.0; visitor_id811463=${e_VistorID}; visitor_id811463-hash=c${e_VistorSignID}; PHPSESSID=396a41b377649e84c1ddc8daa8ba8c9a"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 12 Nov 2024 13:16:28 GMT&#xd;
+content-type: image/svg+xml&#xd;
+content-length: 244&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+last-modified: Tue, 12 Nov 2024 10:22:39 GMT&#xd;
+etag: "f4-626b498c0b9c0"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" eTag="&quot;15058-6369804c1c2c0&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 02 Jun 2025 15:00:03 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/fonts/SourceSansPro-Light.woff2"
+    path="/assets/fonts/SourceSansPro-Light.woff2" postType="6"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @g@m@j - @r@m6098 - @discontinued/%resources%/recorded-artifacts/28012709-8c26-45d5-bc07-5bd16ab78e0c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
+    uid="a39c6f6b-5c14-4563-b851-c53d4f7c0be6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c231e550-6225-4a85-9818-49caac3b500c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1adeaf46-e793-414d-9c6e-91c217202de1.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/assets/styles/styles.min.css?v=1.65"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.1.1731411614.1731411614.1717513692.1765575614471.1; _uetsid=e1effe40a0ea11efb8ad9d37845bcebd; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _ga=GA1.1.832150439.1731411615; _gcl_au=1.1.1776991869.1731411615; _ga_SK4BZ95L7T=GS1.1.1731411614.1.1.1731411644.0.0.0; _ga_3PBWK3NTHG=GS1.1.1731411614.1.1.1731411644.0.0.0; visitor_id811463=${e_VistorID}; visitor_id811463-hash=c${e_VistorSignID}; PHPSESSID=396a41b377649e84c1ddc8daa8ba8c9a"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://webuat.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 12 Nov 2024 13:16:28 GMT&#xd;
+content-length: 86104&#xd;
+server: Apache&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: DENY&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+last-modified: Tue, 12 Nov 2024 10:22:36 GMT&#xd;
+etag: "15058-626b49892f300"&#xd;
+accept-ranges: bytes&#xd;
+cache-control: max-age=84600, public, must-revalidate</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
