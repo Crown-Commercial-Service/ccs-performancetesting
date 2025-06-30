@@ -10,7 +10,7 @@ if (BuyerUsernameExtracted==null) {
 }
 
 // Path to the file where you want to append the variable
-var filePath = "C:/Users/test_win1/Documents/NeoLoad Projects/CCS_v11/custom-resources/MCF3_BuyerUsername.csv";
+var filePath = "C:/Users/test_win1/Documents/NeoLoad Projects/CCS_v12/custom-resources/MCF3_BuyerUsername.csv";
 
 // Function to append content to a file
 function appendToFile(file, content) {

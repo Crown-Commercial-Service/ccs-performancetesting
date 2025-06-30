@@ -2,26 +2,26 @@
     forceEncodingForDynamicResources="false"
     name="/esop/toolkit/negotiation/myRfq/list.si"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @publish @f@c/%resources%/recorded-artifacts/1150118e-d120-436f-83e8-49ab720b94b4.zip"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @publish @f@c/%resources%/recorded-artifacts/de29b333-0866-4f9f-9b56-b4a9f5bb448b.zip"
     slaProfileEnabled="false" thinkTime="${Delay}"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="1150118e-d120-436f-83e8-49ab720b94b4">
-    <embedded-action>3e7d83d8-148c-4762-a408-b69d1af34b4b</embedded-action>
+    thinkTimeRangeStart="" uid="de29b333-0866-4f9f-9b56-b4a9f5bb448b">
+    <embedded-action>109cb2ff-2aa4-442a-87a6-eab1596e1225</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=UTF-8"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
     followRedirects="false" generatedByClient="false"
-    lastModified="Tue, 20 May 2025 10:15:35 GMT"
+    lastModified="Mon, 30 Jun 2025 13:49:40 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/esop/toolkit/negotiation/myRfq/list.si"
     path="/esop/toolkit/negotiation/myRfq/list.si" postType="6"
-    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @publish @f@c/%resources%/recorded-artifacts/1150118e-d120-436f-83e8-49ab720b94b4.zip"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @publish @f@c/%resources%/recorded-artifacts/de29b333-0866-4f9f-9b56-b4a9f5bb448b.zip"
     recordedResponseCode="200" responseSize="289240"
     serverUid="crowncommercialservice-prep.bravosolution.co.uk"
-    slaProfileEnabled="false" uid="3e7d83d8-148c-4762-a408-b69d1af34b4b" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_794cf0fb-b402-4fac-8623-d1fe78a585da.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_794cf0fb-b402-4fac-8623-d1fe78a585da.txt</requestContentFileDescription>
+    slaProfileEnabled="false" uid="109cb2ff-2aa4-442a-87a6-eab1596e1225" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_109cb2ff-2aa4-442a-87a6-eab1596e1225.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_109cb2ff-2aa4-442a-87a6-eab1596e1225.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0"
         endsWithSimple="&quot;" extractFromVarNameAdv=""
@@ -32,7 +32,7 @@
         regExp="email&quot;:&quot;(.*?)&quot;" regExpAdv=""
         setDefaultValue="true" startsWithSimple="email&quot;:&quot;"
         template="$1$" templateAdv="$1$"
-        uid="07a5069b-32e2-4951-b4bb-44fc9182daf9" xpath="">
+        uid="6468e5be-9a83-4214-8479-9ca86d4de61e" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
     <parameter encodeName="true" encodeValue="true" name="reset"
