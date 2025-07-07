@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     forceEncodingForDynamicResources="false" name="/api/frameworks"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @d@o@s6 - @done/%resources%/recorded-artifacts/225e1cc4-dfca-4372-98c5-460cb18593fb.zip"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @d@o@s6 - @done/%resources%/recorded-artifacts/9251c4f5-85e6-4d58-b615-f2cba20bdd61.zip"
     slaProfileEnabled="false" thinkTime="${Page_Delay}"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="225e1cc4-dfca-4372-98c5-460cb18593fb">
-    <embedded-action>241d851d-fc7d-4e29-b64b-64de076c02bb</embedded-action>
+    thinkTimeRangeStart="" uid="9251c4f5-85e6-4d58-b615-f2cba20bdd61">
+    <embedded-action>fcc55a5c-062e-4353-8902-84e0f242829e</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="application/json"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -14,12 +14,12 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/api/frameworks" path="/api/frameworks"
     postType="6"
-    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @d@o@s6 - @done/%resources%/recorded-artifacts/225e1cc4-dfca-4372-98c5-460cb18593fb.zip"
-    recordedResponseCode="200" responseSize="268680"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @d@o@s6 - @done/%resources%/recorded-artifacts/9251c4f5-85e6-4d58-b615-f2cba20bdd61.zip"
+    recordedResponseCode="200" responseSize="5651"
     serverUid="webuat.crowncommercial.gov.uk" slaProfileEnabled="false"
-    uid="241d851d-fc7d-4e29-b64b-64de076c02bb" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_713e38a7-ac05-4a96-8c6f-61a508f839b2</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_713e38a7-ac05-4a96-8c6f-61a508f839b2.txt</requestContentFileDescription>
+    uid="fcc55a5c-062e-4353-8902-84e0f242829e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b7f49bdf-b696-42e6-b320-9639fef46c2a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b7f49bdf-b696-42e6-b320-9639fef46c2a.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
         defaultValue="&lt;NOT FOUND>" displayMode="0"
         endsWithSimple="&quot;" extractFromVarNameAdv=""
@@ -30,34 +30,34 @@
         regExp="rm_number&quot;:&quot;(.*?)&quot;" regExpAdv=""
         setDefaultValue="true" startsWithSimple="rm_number&quot;:&quot;"
         template="$1$" templateAdv="$1$"
-        uid="3de0d1eb-816f-4930-8ead-f9349b082dad" xpath="">
+        uid="e4b44fde-0191-40a5-9c46-970ac3af6884" xpath="">
         <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
     </variable-extractor>
     <parameter encodeName="true" encodeValue="true" name=""
         recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
     <parameter encodeName="false" encodeValue="true" name="status[]"
         recordRawValue="Live" separator="=" value="Live" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="keyword"
+        recordRawValue="RM10438" separator="=" value="RM10438" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="per_page"
         recordRawValue="20" separator="=" value="20" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="page"
         recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
-    <parameter encodeName="true" encodeValue="true" name="keyword"
-        recordRawValue="DOS6" separator="=" value="DOS6" valueMode="USE_VALUE"/>
     <header name="sec-fetch-mode" value="cors"/>
-    <header name="referer" value="https://webuat.crowncommercial.gov.uk/agreements/?&amp;status=Live&amp;keyword=DOS6&amp;page=1"/>
-    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="referer" value="https://webuat.crowncommercial.gov.uk/agreements/?&amp;status=Live&amp;keyword=RM10438&amp;page=1"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
     <header name="sec-fetch-site" value="same-origin"/>
     <header name="sec-ch-ua-mobile" value="?0"/>
-    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1747051913$o1$g1$t1747051940$j0$l0$h0; _gat_UA=removed; _ga_624NHLKTKL=removed; _ga=GA1.1.619773620.1748946869; _ga_3PBWK3NTHG=GS2.1.s1748946868$o2$g1$t1748949848$j56$l0$h0; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.3.1748949848.1748946868.1717513692.1765575614471.1.x; _cs_s=24.5.0.9.1748951648704; visitor_id811463=${e_VistorID}; visitor_id811463-hash=${e_VistorSignID}; _ga_SK4BZ95L7T=GS2.1.s1748946868$o1$g1$t1748949859$j45$l0$h0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; __tmbid=uk-1731411614-4f99e22393ae4705aec35c2ffc4e2587; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1750235924$o3$g0$t1750235924$j60$l0$h0; _ga=GA1.1.81676004.1751886866; visitor_id811463=${e_VistorID}; visitor_id811463-hash=${e_VistorSignID}; _ga_3PBWK3NTHG=GS2.1.s1751889073$o8$g1$t1751889256$j53$l0$h0; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.12.1751889256.1751889073.1717513692.1765575614471.1.x; _cs_s=9.0.0.9.1751891056693; _ga_SK4BZ95L7T=GS2.1.s1751889073$o2$g1$t1751889268$j41$l0$h0"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
     <header name="priority" value="u=1, i"/>
     <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
     <header name="sec-fetch-dest" value="empty"/>
     <header name="accept" value="*/*"/>
-    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
     <responseHeaders>HTTP/2.0 200&#xd;
-date: Tue, 03 Jun 2025 11:24:19 GMT&#xd;
+date: Mon, 07 Jul 2025 11:54:28 GMT&#xd;
 content-type: application/json&#xd;
 server: Apache&#xd;
 x-xss-protection: 1; mode=block&#xd;
