@@ -1,0 +1,114 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/css"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/7d964ccc-87cb-44ee-a279-3a8c9a232f57.zip"
+    slaProfileEnabled="false" thinkTime="${Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7d964ccc-87cb-44ee-a279-3a8c9a232f57">
+    <embedded-action>8336ccb6-d2dd-4d2f-b0d6-7b3005e7923f</embedded-action>
+    <embedded-action>eb8bbe6f-52d7-4a31-b6bc-5fa21d8ec412</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="font/woff2"
+    eTag="&quot;65d71874-15138&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 22 Feb 2024 09:48:36 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/conclave-ssso-ui/fonts/SourceSansPro-SemiBold.woff2"
+    path="/conclave-ssso-ui/fonts/SourceSansPro-SemiBold.woff2"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/7d964ccc-87cb-44ee-a279-3a8c9a232f57.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="crown-commercial-service.github.io"
+    slaProfileEnabled="false" uid="8336ccb6-d2dd-4d2f-b0d6-7b3005e7923f" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_d487eaf1-72f8-4eae-8cf7-b7fd7706c956.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://crown-commercial-service.github.io/conclave-ssso-ui/toolkit.styles.min.css"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="origin" value="https://auth.preprod.identify.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: GitHub.com&#xd;
+content-type: font/woff2&#xd;
+permissions-policy: interest-cohort=()&#xd;
+last-modified: Thu, 22 Feb 2024 09:48:36 GMT&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31556952&#xd;
+etag: "65d71874-15138"&#xd;
+expires: Thu, 15 May 2025 13:46:50 GMT&#xd;
+cache-control: max-age=600&#xd;
+x-proxy-cache: MISS&#xd;
+x-github-request-id: 50C6:AE0B7:262BF73:264B202:6825EDF2&#xd;
+accept-ranges: bytes&#xd;
+age: 0&#xd;
+date: Thu, 15 May 2025 13:36:50 GMT&#xd;
+via: 1.1 varnish&#xd;
+x-served-by: cache-lcy-eglc8600079-LCY&#xd;
+x-cache: MISS&#xd;
+x-cache-hits: 0&#xd;
+x-timer: S1747316211.797293,VS0,VE103&#xd;
+vary: Accept-Encoding&#xd;
+x-fastly-request-id: f97d7452a033585c165e0dd06091950547318c20&#xd;
+content-length: 86328</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="font/woff2"
+    eTag="&quot;65d71873-14e64&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/conclave-ssso-ui/fonts/SourceSansPro-Bold.woff2"
+    path="/conclave-ssso-ui/fonts/SourceSansPro-Bold.woff2" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/7d964ccc-87cb-44ee-a279-3a8c9a232f57.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="crown-commercial-service.github.io"
+    slaProfileEnabled="false" uid="eb8bbe6f-52d7-4a31-b6bc-5fa21d8ec412" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3e8a5939-d7f5-44e8-a5e7-0dd8a4165d51.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://crown-commercial-service.github.io/conclave-ssso-ui/toolkit.styles.min.css"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="origin" value="https://auth.preprod.identify.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: GitHub.com&#xd;
+content-type: font/woff2&#xd;
+permissions-policy: interest-cohort=()&#xd;
+last-modified: Thu, 22 Feb 2024 09:48:35 GMT&#xd;
+access-control-allow-origin: *&#xd;
+strict-transport-security: max-age=31556952&#xd;
+etag: "65d71873-14e64"&#xd;
+expires: Thu, 15 May 2025 06:15:39 GMT&#xd;
+cache-control: max-age=600&#xd;
+x-proxy-cache: MISS&#xd;
+x-github-request-id: 90DD:240DB5:16A92E7:16BCA4E:68258432&#xd;
+accept-ranges: bytes&#xd;
+age: 403&#xd;
+date: Thu, 15 May 2025 13:36:50 GMT&#xd;
+via: 1.1 varnish&#xd;
+x-served-by: cache-lcy-eglc8600079-LCY&#xd;
+x-cache: HIT&#xd;
+x-cache-hits: 0&#xd;
+x-timer: S1747316211.797273,VS0,VE4&#xd;
+vary: Accept-Encoding&#xd;
+x-fastly-request-id: 17c743b67e90b8d2879db02feec3d0e0673da689&#xd;
+content-length: 85604</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

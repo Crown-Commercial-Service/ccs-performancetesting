@@ -1,0 +1,167 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/project/11254/event/ocds-pfhb7i-11567/criteria/3/group/16/enter-context-requirements"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/18bd5d6b-dd56-4805-9cca-eaa0caa51ec6.zip"
+    slaProfileEnabled="false" thinkTime="${Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="18bd5d6b-dd56-4805-9cca-eaa0caa51ec6">
+    <embedded-action>e0a0592d-a2db-4157-8a11-28ee1585eba6</embedded-action>
+    <embedded-action>55336a03-580e-43ea-966d-0dab0ba4160a</embedded-action>
+    <embedded-action>41a48712-6bb3-4e07-a502-bb2ccd176f67</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/project/11254/event/ocds-pfhb7i-11567/criteria/3/group/16/enter-context-requirements"
+    path="/project/${e_ProjectID}/event/${e_EventID}/criteria/3/group/16/enter-context-requirements"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/18bd5d6b-dd56-4805-9cca-eaa0caa51ec6.zip"
+    recordedResponseCode="200" responseSize="59112"
+    serverUid="pre.redirect.contractawardservice.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="e0a0592d-a2db-4157-8a11-28ee1585eba6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7e7804e6-2c03-4546-9580-203262050067.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7e7804e6-2c03-4546-9580-203262050067.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="e_CSRFtokenID_11"
+        refererUid="cb56a366-4cb9-4c08-82af-397c5ac67312"
+        regExp="csrf-token&quot; content=&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="csrf-token&quot; content=&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="016730d0-6d27-475a-80a9-47778c5f5c4d" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://pre.redirect.contractawardservice.crowncommercial.gov.uk/project/${e_ProjectID}/event/${e_EventID}/requirements-context-tasks"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:false,&quot;marketing&quot;:false,&quot;cs&quot;:false}; ccs-sso-visitedsites=${e_ClientID}; SESSION=NjM0OGExZTItNTZhMi00NWM2LTg4ZjEtOThlYjFjNzU5M2I2; AWSALB=2uDlnffVQaeXu4UKMh7rgEULfT5048HEHHxzHAQzM6i9Fw9wu+sd5GhJoCnwlg8IzybHxsdAduGMGsxbJNwOkwARficZ9ccnreelRmo3+QGek16AJbVWX/VEWWvt; AWSALBCORS=2uDlnffVQaeXu4UKMh7rgEULfT5048HEHHxzHAQzM6i9Fw9wu+sd5GhJoCnwlg8IzybHxsdAduGMGsxbJNwOkwARficZ9ccnreelRmo3+QGek16AJbVWX/VEWWvt"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 24 Oct 2024 11:23:48 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+set-cookie: AWSALB=JOI6ImTwKYNlj49lZ+0zM4eBSCfC8waDtcriMLXOeaahX5I3xXP/doto8pLgQwkESow+kvDzNEIaN0VUXUxCv3RxEZha94EUiz5tC5wiSK0/OjAFkxvyc+foatFY; Expires=Thu, 31 Oct 2024 11:23:47 GMT; Path=/&#xd;
+set-cookie: AWSALBCORS=JOI6ImTwKYNlj49lZ+0zM4eBSCfC8waDtcriMLXOeaahX5I3xXP/doto8pLgQwkESow+kvDzNEIaN0VUXUxCv3RxEZha94EUiz5tC5wiSK0/OjAFkxvyc+foatFY; Expires=Thu, 31 Oct 2024 11:23:47 GMT; Path=/; SameSite=None; Secure&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com/ https://cdnjs.cloudflare.com; frame-ancestors 'self' https://*.crowncommercial.gov.uk&#xd;
+content-language: en-US</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 10 Jul 2025 12:56:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/application.css"
+    path="/assets/application.css" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/18bd5d6b-dd56-4805-9cca-eaa0caa51ec6.zip"
+    recordedResponseCode="200" responseSize="131016"
+    serverUid="pre.redirect.contractawardservice.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="55336a03-580e-43ea-966d-0dab0ba4160a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_97c327ed-01de-4d2f-bfdd-102e45c20c92.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_97c327ed-01de-4d2f-bfdd-102e45c20c92.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://pre.redirect.contractawardservice.crowncommercial.gov.uk/project/${e_ProjectID}/event/${e_EventID}/criteria/3/group/16/enter-context-requirements"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:false,&quot;marketing&quot;:false,&quot;cs&quot;:false}; ccs-sso-visitedsites=${e_ClientID}; SESSION=NjM0OGExZTItNTZhMi00NWM2LTg4ZjEtOThlYjFjNzU5M2I2; AWSALB=JOI6ImTwKYNlj49lZ+0zM4eBSCfC8waDtcriMLXOeaahX5I3xXP/doto8pLgQwkESow+kvDzNEIaN0VUXUxCv3RxEZha94EUiz5tC5wiSK0/OjAFkxvyc+foatFY; AWSALBCORS=JOI6ImTwKYNlj49lZ+0zM4eBSCfC8waDtcriMLXOeaahX5I3xXP/doto8pLgQwkESow+kvDzNEIaN0VUXUxCv3RxEZha94EUiz5tC5wiSK0/OjAFkxvyc+foatFY"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 24 Oct 2024 11:23:48 GMT&#xd;
+content-type: text/css&#xd;
+content-length: 131016&#xd;
+set-cookie: AWSALB=HrxI6fPPmZ+EHUnYR1yKZQZ4gB4kC1PSrIPl2eo4fMTIdR/hkDiP+PcDKzYywvTBUoV4C4+/5lzDjJi5WcYdSa62DImL9hYbO7RlKUNm1JM9E8kRS6/zqf6eagtH; Expires=Thu, 31 Oct 2024 11:23:48 GMT; Path=/&#xd;
+set-cookie: AWSALBCORS=HrxI6fPPmZ+EHUnYR1yKZQZ4gB4kC1PSrIPl2eo4fMTIdR/hkDiP+PcDKzYywvTBUoV4C4+/5lzDjJi5WcYdSa62DImL9hYbO7RlKUNm1JM9E8kRS6/zqf6eagtH; Expires=Thu, 31 Oct 2024 11:23:48 GMT; Path=/; SameSite=None; Secure&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Thu, 24 Oct 2024 09:12:27 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com/ https://cdnjs.cloudflare.com; frame-ancestors 'self' https://*.crowncommercial.gov.uk</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 10 Jul 2025 12:56:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/assets/application.js"
+    path="/assets/application.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/18bd5d6b-dd56-4805-9cca-eaa0caa51ec6.zip"
+    recordedResponseCode="200"
+    refererUid="e0a0592d-a2db-4157-8a11-28ee1585eba6"
+    responseSize="131854"
+    serverUid="pre.redirect.contractawardservice.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="41a48712-6bb3-4e07-a502-bb2ccd176f67" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b0bcbec7-1e18-46de-bd43-754af55775fd</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b0bcbec7-1e18-46de-bd43-754af55775fd.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://pre.redirect.contractawardservice.crowncommercial.gov.uk/project/${e_ProjectID}/event/${e_EventID}/criteria/3/group/16/enter-context-requirements"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:false,&quot;marketing&quot;:false,&quot;cs&quot;:false}; ccs-sso-visitedsites=${e_ClientID}; SESSION=NjM0OGExZTItNTZhMi00NWM2LTg4ZjEtOThlYjFjNzU5M2I2; AWSALB=JOI6ImTwKYNlj49lZ+0zM4eBSCfC8waDtcriMLXOeaahX5I3xXP/doto8pLgQwkESow+kvDzNEIaN0VUXUxCv3RxEZha94EUiz5tC5wiSK0/OjAFkxvyc+foatFY; AWSALBCORS=JOI6ImTwKYNlj49lZ+0zM4eBSCfC8waDtcriMLXOeaahX5I3xXP/doto8pLgQwkESow+kvDzNEIaN0VUXUxCv3RxEZha94EUiz5tC5wiSK0/OjAFkxvyc+foatFY"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 24 Oct 2024 11:23:48 GMT&#xd;
+content-type: text/javascript&#xd;
+content-length: 131854&#xd;
+set-cookie: AWSALB=SHd8D1X7lzWjpc0cUPll5paW7XkMemFcfw2ms777SUHcU55h53cXTsyE6XXTKPwcC/Df9tSVZYIYwypXt07jClSsdhGAJkYkR2knOzmpQ5TwmMvjbGJ+lMEnp4jh; Expires=Thu, 31 Oct 2024 11:23:48 GMT; Path=/&#xd;
+set-cookie: AWSALBCORS=SHd8D1X7lzWjpc0cUPll5paW7XkMemFcfw2ms777SUHcU55h53cXTsyE6XXTKPwcC/Df9tSVZYIYwypXt07jClSsdhGAJkYkR2knOzmpQ5TwmMvjbGJ+lMEnp4jh; Expires=Thu, 31 Oct 2024 11:23:48 GMT; Path=/; SameSite=None; Secure&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Thu, 24 Oct 2024 09:12:27 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com/ https://cdnjs.cloudflare.com; frame-ancestors 'self' https://*.crowncommercial.gov.uk</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="1"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

@@ -1,0 +1,67 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/project/11254/event/ocds-pfhb7i-11567/criteria/2/group/7/enter-criteria-requirements_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/df993dea-3f9e-4dd6-b7c9-c115e7357f69.zip"
+    slaProfileEnabled="false" thinkTime="${Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="df993dea-3f9e-4dd6-b7c9-c115e7357f69">
+    <embedded-action>aaccf6d0-14ab-4110-8a3c-a593a8edb5cf</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/project/11254/event/ocds-pfhb7i-11567/criteria/2/group/7/enter-criteria-requirements"
+    path="/project/${e_ProjectID}/event/${e_EventID}/criteria/2/group/7/enter-criteria-requirements"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@o@s6 - @pre@prod - @e2@e/%resources%/recorded-artifacts/df993dea-3f9e-4dd6-b7c9-c115e7357f69.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="pre.redirect.contractawardservice.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="aaccf6d0-14ab-4110-8a3c-a593a8edb5cf" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[X2NzcmY9WnR0UW4tdmZ4OUFsMFdSZEQxUHd4bGZYTWNKWVVRblNzWTVPRmV6TzN4U0wyWC1JQjdrMXA0cm5vZVFJdFFBX08zN0U5alN4SEtNLVpEdl9ocmQ1SjlqNjZpSzU2RXV4JnF1ZXN0aW9uLTE9Q0FTK0J1eWVyKy0rNC4rWW91cithc3Nlc3NtZW50K2NyaXRlcmlhK3Rhc2tzKy0rU2V0K3RoZStvdmVyYWxsK3dlaWdodGluZystK0xPT0srSU5UTyZxdWVzdGlvbi0yPTEwMA==]]></binaryPostContentBase64>
+    <requestContentFileDescription>recorded-requests/req_e77f60f1-2303-422e-8bd4-c4b66174724a.txt</requestContentFileDescription>
+    <parameter encodeName="false" encodeValue="false" name="_csrf"
+        recordRawValue="ZttQn-vfx9Al0WRdD1PwxlfXMcJYUQnSsY5OFezO3xSL2X-IB7k1p4rnoeQItQA_O37E9jSxHKM-ZDv_hrd5J9j66iK56Eux"
+        separator="=" value="${e_CSRFtokenID_18}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="question-1"
+        recordRawValue="CAS+Buyer+-+4.+Your+assessment+criteria+tasks+-+Set+the+overall+weighting+-+LOOK+INTO"
+        separator="="
+        value="CAS Buyer - 4. Your assessment criteria tasks - Set the overall weighting - LOOK INTO" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="question-2"
+        recordRawValue="100" separator="=" value="100" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://pre.redirect.contractawardservice.crowncommercial.gov.uk/project/${e_ProjectID}/event/${e_EventID}/criteria/2/group/7/enter-criteria-requirements"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; _gat_UA=removed; _ga_624NHLKTKL=removed; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:false,&quot;marketing&quot;:false,&quot;cs&quot;:false}; ccs-sso-visitedsites=${e_ClientID}; SESSION=MzVlMTc3ZTUtMWVlNi00N2RmLThmMGMtZmNlZWI0YWUyYTZm; AWSALB=orZv46UOlkkZXfPFZNPo0l2MT0AxgHoH/sYP9+cIz5jM+dKYuh+cO7gwQC4X7ygjAv+J8bfOc88XyhQmNMG8eJtvFs0Jf5nMJfw94tUUzthQo4h6j3lcSxdB/9rP; AWSALBCORS=orZv46UOlkkZXfPFZNPo0l2MT0AxgHoH/sYP9+cIz5jM+dKYuh+cO7gwQC4X7ygjAv+J8bfOc88XyhQmNMG8eJtvFs0Jf5nMJfw94tUUzthQo4h6j3lcSxdB/9rP"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://pre.redirect.contractawardservice.crowncommercial.gov.uk"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;130&quot;, &quot;Google Chrome&quot;;v=&quot;130&quot;, &quot;Not?A_Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Thu, 24 Oct 2024 11:34:06 GMT&#xd;
+Content-Length: 0&#xd;
+location: http://pre.redirect.contractawardservice.crowncommercial.gov.uk/project/11254/event/ocds-pfhb7i-11567/assessment-criteria-weightings&#xd;
+set-cookie: AWSALB=ftO+8sNW//W8M3lYdkPFMoneCjAMZNoz55VRxMjkal1z3Kn+Xs+sA59MrkP8bpPL+JVSjPeZCUhgF+Lh8N1P3NbbulLqu2BHmSZVAZaeUA9JgWsd/V/HXuUBDdRq; Expires=Thu, 31 Oct 2024 11:34:05 GMT; Path=/&#xd;
+set-cookie: AWSALBCORS=ftO+8sNW//W8M3lYdkPFMoneCjAMZNoz55VRxMjkal1z3Kn+Xs+sA59MrkP8bpPL+JVSjPeZCUhgF+Lh8N1P3NbbulLqu2BHmSZVAZaeUA9JgWsd/V/HXuUBDdRq; Expires=Thu, 31 Oct 2024 11:34:05 GMT; Path=/; SameSite=None; Secure&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com/ https://cdnjs.cloudflare.com; frame-ancestors 'self' https://*.crowncommercial.gov.uk&#xd;
+content-language: en-US</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
