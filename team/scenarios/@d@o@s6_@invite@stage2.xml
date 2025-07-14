@@ -4,7 +4,7 @@
     <description>DOS6 - 4 users
 GCloud14 - 36 users
 Stop test when run out of data
-Liverpool Sprint 21 - 30.06</description>
+Liverpool Sprint 22 - 14.07</description>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="DOS6 - Stage 2">
         <duration-policy-entry iterations="1" time="3600" timeUnit="0" type="2"/>
@@ -77,6 +77,7 @@ Liverpool Sprint 21 - 30.06</description>
                 monitorName="lgcpu.localhost:7100"
                 monitoredHostName="LG localhost:7100" scale="1.0" selected="false"/>
         </chart-description>
+        <empty-chart-description/>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
     <!--****** START DATA FILTERS  ******-->

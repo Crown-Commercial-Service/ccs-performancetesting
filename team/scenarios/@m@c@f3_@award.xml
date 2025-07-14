@@ -3,7 +3,7 @@
     <description>MCF3: 4VU
 GCloud14: 36VU
 Duration: 1 hr / until all projects are Awarded
-Liverpool Sprint 21 - 30.06</description>
+Liverpool Sprint 22 - 14.07</description>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="MCF3 - Award">
         <duration-policy-entry iterations="1" time="3600" timeUnit="0" type="2"/>
@@ -76,6 +76,7 @@ Liverpool Sprint 21 - 30.06</description>
                 monitorName="lgcpu.localhost:7100"
                 monitoredHostName="LG localhost:7100" scale="1.0" selected="false"/>
         </chart-description>
+        <empty-chart-description/>
     </charts-model-description>
     <!--****** END DASHBOARDS  ******-->
     <!--****** START DATA FILTERS  ******-->
