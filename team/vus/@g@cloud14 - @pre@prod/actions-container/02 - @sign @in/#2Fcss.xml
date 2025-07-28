@@ -1,4 +1,4 @@
-<http-page executeResourcesDynamically="false"
+<http-page enabled="false" executeResourcesDynamically="false"
     forceEncodingForDynamicResources="false" name="/css"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@g@cloud14 - @pre@prod/%resources%/recorded-artifacts/fc9356c1-8c82-4b2c-a498-436d8997939b.zip"
@@ -9,11 +9,9 @@
     <embedded-action>9945eed8-0ced-4e81-a79a-c6d458e04ee1</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="font/woff2"
-    eTag="&quot;65d71873-15138&quot;" extractorInjectPathPolicy="2"
+    eTag="W/&quot;64d39a40-24a3&quot;" extractorInjectPathPolicy="2"
     extractorPathPolicy="1" followRedirects="false"
-    generatedByClient="false"
-    lastModified="Thu, 22 Feb 2024 09:48:35 GMT"
-    linkExtractorSeveralMatchOccurrence="1"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET"
     name="/conclave-ssso-ui/fonts/SourceSansPro-SemiBold.woff2"
