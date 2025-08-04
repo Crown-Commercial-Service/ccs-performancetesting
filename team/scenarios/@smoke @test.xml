@@ -2,7 +2,7 @@
     slaProfileEnabled="false" traceVariables="true" uid="Smoke Test" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
     <population-policy name="SearchAgreements - Edge">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="4"/>
         </volume-policy-entry>
@@ -17,7 +17,7 @@
     </population-policy>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="SearchSuppliers - Edge">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="1"/>
         </volume-policy-entry>
@@ -32,7 +32,7 @@
     </population-policy>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="Navigation - Edge">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="1"/>
         </volume-policy-entry>
@@ -47,7 +47,7 @@
     </population-policy>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="UpcomingAgreements - Edge">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="1"/>
         </volume-policy-entry>
@@ -62,7 +62,7 @@
     </population-policy>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="SearchAgreements - Chrome">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="4"/>
         </volume-policy-entry>
@@ -77,7 +77,7 @@
     </population-policy>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="SearchSuppliers - Chrome">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="1"/>
         </volume-policy-entry>
@@ -92,7 +92,7 @@
     </population-policy>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="Navigation - Chrome">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="1"/>
         </volume-policy-entry>
@@ -107,7 +107,7 @@
     </population-policy>
     <!--****** POPULATION POLICY ******-->
     <population-policy name="UpcomingAgreements - Chrome">
-        <duration-policy-entry iterations="1" time="120" timeUnit="0" type="1"/>
+        <duration-policy-entry iterations="1" time="300" timeUnit="0" type="2"/>
         <volume-policy-entry>
             <constant-volume-policy iterationNumber="1" userNumber="1"/>
         </volume-policy-entry>

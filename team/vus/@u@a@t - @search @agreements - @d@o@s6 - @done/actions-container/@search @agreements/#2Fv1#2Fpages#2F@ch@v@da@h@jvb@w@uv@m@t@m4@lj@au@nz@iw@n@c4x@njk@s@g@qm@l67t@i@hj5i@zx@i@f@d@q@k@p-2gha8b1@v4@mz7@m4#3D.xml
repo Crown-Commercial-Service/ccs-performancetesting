@@ -1,0 +1,104 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/v1/pages/ChVDaHJvbWUvMTM4LjAuNzIwNC4xNjkSGQmL67tIHj5iZxIFDQKP-2gha8b1V4Mz7M4="
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @d@o@s6 - @done/%resources%/recorded-artifacts/86f8e0a9-d08b-4fa3-897e-1e4f9afb1ce1.zip"
+    slaProfileEnabled="false" thinkTime="${Page_Delay}"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="86f8e0a9-d08b-4fa3-897e-1e4f9afb1ce1">
+    <embedded-action>29064ba8-e650-4ed4-b095-19ce15e472af</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/javascript; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/analytics" path="/analytics" postType="6"
+    recordedArtifactZipFileName="team/vus/@u@a@t - @search @agreements - @d@o@s6 - @done/%resources%/recorded-artifacts/86f8e0a9-d08b-4fa3-897e-1e4f9afb1ce1.zip"
+    recordedResponseCode="200" responseSize="1141"
+    serverUid="information.crowncommercial.gov.uk"
+    slaProfileEnabled="false" uid="29064ba8-e650-4ed4-b095-19ce15e472af" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_24dda12d-e882-44a6-8887-993154c836e3</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_24dda12d-e882-44a6-8887-993154c836e3.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="e_VistorID_Sign"
+        refererUid="bdc4304a-4647-4786-8bca-1076144fbe11"
+        regExp="visitor_id_sign='(.*?)'" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="visitor_id_sign='"
+        template="$1$" templateAdv="$1$"
+        uid="b2fdb47f-2529-41c7-a7a0-645f054762de" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple="'"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="e_VistorID"
+        refererUid="03e8d789-5668-405c-9c20-6c0725c44e2a"
+        regExp="visitor_id='(.*?)'" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="visitor_id='" template="$1$" templateAdv="$1$"
+        uid="ff0e5798-0115-4dac-b089-9d14177da3fc" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="ver"
+        recordRawValue="3" separator="=" value="3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="visitor_id"
+        recordRawValue="382775146" separator="=" value="${e_VistorID}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="visitor_id_sign"
+        recordRawValue="708d8227a296fee3be65845bc5fb7e64cbfbea40ca55e912c9b218df60d4205ea37474dc20f13231fcd73e50e198f1646fad7323"
+        separator="=" value="${e_VistorIDSign}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pi_opt_in"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="campaign_id"
+        recordRawValue="null" separator="=" value="null" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="account_id"
+        recordRawValue="812463" separator="=" value="${e_AccountID}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="title"
+        recordRawValue="Search%20agreements%20-%20CCS" separator="="
+        value="${e_CrownCommercialService}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="url"
+        recordRawValue="https%3A%2F%2Fwebuat.crowncommercial.gov.uk%2Fagreements%2F%3F%26status%3DLive%26page%3D1"
+        separator="="
+        value="https://webuat.crowncommercial.gov.uk/agreements/?&amp;status=Live&amp;page=1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="referrer"
+        recordRawValue="https%3A%2F%2Fwebuat.crowncommercial.gov.uk%2F"
+        separator="=" value="https://webuat.crowncommercial.gov.uk/" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="ppg_cookies_policy={&quot;essential&quot;:true,&quot;additional&quot;:false,&quot;glassbox&quot;:false}; cookie_preferences={&quot;essentials&quot;:true,&quot;usage&quot;:true,&quot;marketing&quot;:true,&quot;cs&quot;:true}; cookies_reset_1=true; seen_cookie_message=true; _cs_c=0; _uetvid=e1f02320a0ea11efb3005f09ae246178; _gcl_au=1.1.655651051.1747051914; _ga_B8RR0VK7P1=GS2.1.s1750235924$o3$g0$t1750235924$j60$l0$h0; _ga=GA1.1.603851564.1754302835; visitor_id811463=${e_VistorID}; visitor_id811463-hash=${e_VistorIDSign}; lpv811463=aHR0cHM6Ly93ZWJ1YXQuY3Jvd25jb21tZXJjaWFsLmdvdi51ay8%3D; _ga_SK4BZ95L7T=GS2.1.s1754306546$o2$g1$t1754308236$j57$l0$h0; _ga_3PBWK3NTHG=GS2.1.s1754306546$o15$g1$t1754308236$j57$l0$h0; _cs_id=b580169b-d1bc-a5a0-be2d-5a153f33ab7e.1731411614.18.1754308236.1754306536.1717513692.1765575614471.1.x; _cs_s=28.5.U.9.1754310036830"/>
+    <header name="Host" value="information.crowncommercial.gov.uk"/>
+    <header name="Referer" value="https://webuat.crowncommercial.gov.uk/"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="script"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Mon, 04 Aug 2025 11:50:37 GMT&#xd;
+Content-Type: text/javascript; charset=utf-8&#xd;
+Content-Length: 532&#xd;
+Connection: keep-alive&#xd;
+set-cookie: pardot=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0&#xd;
+expires: Thu, 19 Nov 1981 08:52:00 GMT&#xd;
+cache-control: no-store, no-cache, must-revalidate&#xd;
+pragma: no-cache&#xd;
+x-pardot-rsp: 0/0/1&#xd;
+p3p: CP="CAO DSP AND SO ON" policyref="/w3c/p3p.xml", CP="NOI DSP COR CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT", policyref="/w3c/p3p.xml"&#xd;
+set-cookie: visitor_id811463=382775146; expires=Thu, 02 Aug 2035 11:50:36 GMT; Max-Age=315359999; path=/; secure; SameSite=None&#xd;
+set-cookie: visitor_id811463-hash=708d8227a296fee3be65845bc5fb7e64cbfbea40ca55e912c9b218df60d4205ea37474dc20f13231fcd73e50e198f1646fad7323; expires=Thu, 02 Aug 2035 11:50:36 GMT; Max-Age=315359999; path=/; secure; SameSite=None&#xd;
+set-cookie: lpv811463=aHR0cHM6Ly93ZWJ1YXQuY3Jvd25jb21tZXJjaWFsLmdvdi51ay9hZ3JlZW1lbnRzLz8mc3RhdHVzPUxpdmUmcGFnZT0x; expires=Mon, 04 Aug 2025 12:20:37 GMT; Max-Age=1800; path=/; secure; SameSite=None&#xd;
+vary: Accept-Encoding,User-Agent&#xd;
+content-encoding: gzip&#xd;
+X-Pardot-Route: 9b06e8e2308c32c7bf9ba8adfb7be2e1</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
