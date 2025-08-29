@@ -1,0 +1,124 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4/edit/customer-informati"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t_old/%resources%/recorded-artifacts/31f572fc-24c8-4d41-80ca-4b74998703d9.zip"
+    slaProfileEnabled="false" thinkTime="20790"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="31f572fc-24c8-4d41-80ca-4b74998703d9">
+    <embedded-action>67565d9a-029b-422f-b8d6-e5e147bdcdc9</embedded-action>
+    <embedded-action>9183f8b9-848e-43f8-8eb7-e716cb486c5d</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4/edit/customer-information"
+    path="/suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4/edit/customer-information"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t_old/%resources%/recorded-artifacts/31f572fc-24c8-4d41-80ca-4b74998703d9.zip"
+    recordedResponseCode="302" responseSize="329"
+    serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
+    uid="67565d9a-029b-422f-b8d6-e5e147bdcdc9" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y3NyZl90b2tlbj1JalkzWXpabU5tTXpORFppWVRoaVpUUXpPV00zWTJNMk1XTTNZV0prTnpVMU1tWTBPVEpqTWpraS5hSzNmQWcuVHNJbUpsaXpGQ05iR0JpZk55S21zMGxyYXVNJmN1c3RvbWVyT3JnYW5pc2F0aW9uPVBlcmZvcm1hbmNlJmN1c3RvbWVyQ29udGFjdE5hbWU9UGVyZm9ybWFuY2UmY3VzdG9tZXJKb2JUaXRsZT1QZXJmb3JtYW5jZSZjdXN0b21lckVtYWlsPVBlcmZvcm1hbmNlJTQwZ21haWwuY29t]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_5667b4fe-21a8-4002-8e5b-0d040f69b041.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5667b4fe-21a8-4002-8e5b-0d040f69b041.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="csrf_token"
+        recordRawValue="IjY3YzZmNmMzNDZiYThiZTQzOWM3Y2M2MWM3YWJkNzU1MmY0OTJjMjki.aK3fAg.TsImJlizFCNbGBifNyKms0lrauM"
+        separator="="
+        value="IjY3YzZmNmMzNDZiYThiZTQzOWM3Y2M2MWM3YWJkNzU1MmY0OTJjMjki.aK3fAg.TsImJlizFCNbGBifNyKms0lrauM" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customerOrganisation" recordRawValue="Performance"
+        separator="=" value="Performance" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customerContactName" recordRawValue="Performance"
+        separator="=" value="Performance" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customerJobTitle" recordRawValue="Performance"
+        separator="=" value="Performance" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="customerEmail"
+        recordRawValue="Performance%40gmail.com" separator="="
+        value="Performance@gmail.com" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4/edit/customer-information"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=RPRHtNRZOnlYO8bgi3F-j_BNgImlYE2zaHS_eZSHXJU"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://www.nft.marketplace.team"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;139&quot;, &quot;Chromium&quot;;v=&quot;139&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Tue, 26 Aug 2025 16:21:49 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 329&#xd;
+server: nginx&#xd;
+location: /suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Wed, 26 Aug 2026 16:21:49 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=RPRHtNRZOnlYO8bgi3F-j_BNgImlYE2zaHS_eZSHXJU; Domain=nft.marketplace.team; Expires=Tue, 26 Aug 2025 17:21:49 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: f2c33f551194fe6b58880c455fe963d0&#xd;
+x-b3-traceid: f2c33f551194fe6b58880c455fe963d0&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4"
+    path="/suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t_old/%resources%/recorded-artifacts/31f572fc-24c8-4d41-80ca-4b74998703d9.zip"
+    recordedResponseCode="200"
+    refererUid="67565d9a-029b-422f-b8d6-e5e147bdcdc9"
+    responseSize="29158" serverUid="www.nft.marketplace.team"
+    slaProfileEnabled="false" uid="9183f8b9-848e-43f8-8eb7-e716cb486c5d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e6f5361e-d70e-4584-b781-7eacc3c45156.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e6f5361e-d70e-4584-b781-7eacc3c45156.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://www.nft.marketplace.team/suppliers/frameworks/g-cloud-15/technical-ability-certificates/isaas/4/edit/customer-information"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=RPRHtNRZOnlYO8bgi3F-j_BNgImlYE2zaHS_eZSHXJU"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;139&quot;, &quot;Chromium&quot;;v=&quot;139&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Aug 2025 16:21:49 GMT&#xd;
+content-type: text/html; charset=utf-8&#xd;
+content-length: 29158&#xd;
+server: nginx&#xd;
+cache-control: no-cache&#xd;
+x-frame-options: DENY&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Wed, 26 Aug 2026 16:21:49 GMT; Max-Age=31536000; Path=/&#xd;
+vary: Cookie&#xd;
+set-cookie: dm_session=RPRHtNRZOnlYO8bgi3F-j_BNgImlYE2zaHS_eZSHXJU; Domain=nft.marketplace.team; Expires=Tue, 26 Aug 2025 17:21:49 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: 23c21ca66e200fa0c32acdf880123de8&#xd;
+x-b3-traceid: 23c21ca66e200fa0c32acdf880123de8&#xd;
+x-b3-spanid: None</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

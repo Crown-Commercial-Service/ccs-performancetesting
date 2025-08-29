@@ -2,6 +2,23 @@
     slaProfileEnabled="false" traceVariables="true"
     uid="Full load 1000 VUS" virtualUsersStates="true">
     <description>1k users ramping up just under 1hr  minutes: then steadily continue for another 1 hr</description>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="GCloud15 Registration">
+        <duration-policy-entry iterations="1" time="5400" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="9.0"
+                delayTypeIncrement="1" initialUserNumber="2"
+                iterationNumber="1" maxUserNumber="1000" userIncrement="5"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="2"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>
     <!--****** DASHBOARDS  ******-->
     <charts-model-description name="Graph board">

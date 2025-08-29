@@ -1,25 +1,27 @@
 <http-page executeResourcesDynamically="false"
     forceEncodingForDynamicResources="false"
     name="/static/manifest.json" playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t/%resources%/recorded-artifacts/8fbea741-0fc0-445b-b885-ce7571039b77.zip"
-    slaProfileEnabled="false" thinkTime="540"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t/%resources%/recorded-artifacts/966cbf52-4d78-4a0a-918e-081db50ec681.zip"
+    slaProfileEnabled="false" thinkTime="${pRandomThinkTime}"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="8fbea741-0fc0-445b-b885-ce7571039b77">
-    <embedded-action>6a45b3f8-f329-44f7-9340-7965322c0e0c</embedded-action>
+    thinkTimeRangeStart="" uid="966cbf52-4d78-4a0a-918e-081db50ec681">
+    <embedded-action>475bdbda-bf6b-4083-b86d-46b30f88ddef</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="application/json"
-    extractorInjectPathPolicy="2" extractorPathPolicy="1"
-    followRedirects="false" generatedByClient="false"
+    eTag="&quot;68ad93b6-320&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 26 Aug 2025 11:00:06 GMT"
     linkExtractorSeveralMatchOccurrence="1"
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/static/manifest.json"
     path="/static/manifest.json" postType="6"
-    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t/%resources%/recorded-artifacts/8fbea741-0fc0-445b-b885-ce7571039b77.zip"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t/%resources%/recorded-artifacts/966cbf52-4d78-4a0a-918e-081db50ec681.zip"
     recordedResponseCode="200" responseSize="800"
     serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
-    uid="6a45b3f8-f329-44f7-9340-7965322c0e0c" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_6a45b3f8-f329-44f7-9340-7965322c0e0c</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_6a45b3f8-f329-44f7-9340-7965322c0e0c.txt</requestContentFileDescription>
+    uid="475bdbda-bf6b-4083-b86d-46b30f88ddef" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b231c7e2-23f2-4ac4-bbe1-04aa244e88d5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b231c7e2-23f2-4ac4-bbe1-04aa244e88d5.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="cors"/>
     <header name="referer" value="https://www.nft.marketplace.team/"/>
     <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;139&quot;, &quot;Chromium&quot;;v=&quot;139&quot;"/>
@@ -33,12 +35,12 @@
     <header name="accept" value="*/*"/>
     <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
     <responseHeaders>HTTP/2.0 200&#xd;
-date: Tue, 26 Aug 2025 15:45:44 GMT&#xd;
+date: Fri, 29 Aug 2025 10:27:25 GMT&#xd;
 content-type: application/json&#xd;
 content-length: 800&#xd;
 server: nginx&#xd;
-last-modified: Fri, 25 Jul 2025 08:07:14 GMT&#xd;
-etag: "68833b32-320"&#xd;
+last-modified: Tue, 26 Aug 2025 11:00:06 GMT&#xd;
+etag: "68ad93b6-320"&#xd;
 cache-control: public, max-age=86400&#xd;
 accept-ranges: bytes</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>

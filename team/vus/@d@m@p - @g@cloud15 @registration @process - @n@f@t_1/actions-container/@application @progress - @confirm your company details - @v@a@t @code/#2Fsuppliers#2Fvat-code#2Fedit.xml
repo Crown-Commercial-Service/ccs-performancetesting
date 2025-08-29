@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     forceEncodingForDynamicResources="false"
     name="/suppliers/vat-code/edit" playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t_1/%resources%/recorded-artifacts/7de098a9-bf17-4da5-b455-30351159151f.zip"
-    slaProfileEnabled="false" thinkTime="2874"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t_1/%resources%/recorded-artifacts/e96e94fe-963f-4dd2-89b6-f45321bc1319.zip"
+    slaProfileEnabled="false" thinkTime="0"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="7de098a9-bf17-4da5-b455-30351159151f">
-    <embedded-action>6e0296c5-3582-42a7-88b7-cf076479dd96</embedded-action>
+    thinkTimeRangeStart="" uid="e96e94fe-963f-4dd2-89b6-f45321bc1319">
+    <embedded-action>1da324f5-031c-4894-9176-80fc0f33a65b</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html; charset=utf-8"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -14,16 +14,16 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/suppliers/vat-code/edit"
     path="/suppliers/vat-code/edit" postType="6"
-    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t_1/%resources%/recorded-artifacts/7de098a9-bf17-4da5-b455-30351159151f.zip"
+    recordedArtifactZipFileName="team/vus/@d@m@p - @g@cloud15 @registration @process - @n@f@t_1/%resources%/recorded-artifacts/e96e94fe-963f-4dd2-89b6-f45321bc1319.zip"
     recordedResponseCode="200" responseSize="23360"
     serverUid="www.nft.marketplace.team" slaProfileEnabled="false"
-    uid="6e0296c5-3582-42a7-88b7-cf076479dd96" useKeepAlive="false">
-    <responsePageFileDescription>recorded-responses/res_5410bb07-b17a-47f9-aaa3-eb2729dbae66.html</responsePageFileDescription>
-    <requestContentFileDescription>recorded-requests/req_5410bb07-b17a-47f9-aaa3-eb2729dbae66.txt</requestContentFileDescription>
+    uid="1da324f5-031c-4894-9176-80fc0f33a65b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1da324f5-031c-4894-9176-80fc0f33a65b.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1da324f5-031c-4894-9176-80fc0f33a65b.txt</requestContentFileDescription>
     <header name="sec-fetch-mode" value="navigate"/>
     <header name="referer" value="https://www.nft.marketplace.team/suppliers/details"/>
     <header name="sec-fetch-site" value="same-origin"/>
-    <header name="cookie" value="dm_cookie_probe=yum; dm_session=mc-tLDkHF-tW2w-1Vb1jcUVUfhotTtkS6bPUcNpRAx4"/>
+    <header name="cookie" value="dm_cookie_probe=yum; dm_session=wTXm7332OWvgbQeKLpA3cqLQ6xRvbdAGXOFV6a7d7JI"/>
     <header name="accept-language" value="en-US,en;q=0.9"/>
     <header name="priority" value="u=0, i"/>
     <header name="sec-fetch-user" value="?1"/>
@@ -36,17 +36,17 @@
     <header name="sec-fetch-dest" value="document"/>
     <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
     <responseHeaders>HTTP/2.0 200&#xd;
-date: Tue, 26 Aug 2025 15:24:12 GMT&#xd;
+date: Fri, 29 Aug 2025 10:27:52 GMT&#xd;
 content-type: text/html; charset=utf-8&#xd;
 content-length: 23360&#xd;
 server: nginx&#xd;
 cache-control: no-cache&#xd;
 x-frame-options: DENY&#xd;
-set-cookie: dm_cookie_probe=yum; Expires=Wed, 26 Aug 2026 15:24:12 GMT; Max-Age=31536000; Path=/&#xd;
+set-cookie: dm_cookie_probe=yum; Expires=Sat, 29 Aug 2026 10:27:52 GMT; Max-Age=31536000; Path=/&#xd;
 vary: Cookie&#xd;
-set-cookie: dm_session=mc-tLDkHF-tW2w-1Vb1jcUVUfhotTtkS6bPUcNpRAx4; Domain=nft.marketplace.team; Expires=Tue, 26 Aug 2025 16:24:12 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
-dm-request-id: 3bdf3bd955b94ac138ab7231b84f6590&#xd;
-x-b3-traceid: 3bdf3bd955b94ac138ab7231b84f6590&#xd;
+set-cookie: dm_session=wTXm7332OWvgbQeKLpA3cqLQ6xRvbdAGXOFV6a7d7JI; Domain=nft.marketplace.team; Expires=Fri, 29 Aug 2025 11:27:52 GMT; Secure; HttpOnly; Path=/; SameSite=Lax&#xd;
+dm-request-id: 3f96d79ce8f0c42aea2f65cea308b8ab&#xd;
+x-b3-traceid: 3f96d79ce8f0c42aea2f65cea308b8ab&#xd;
 x-b3-spanid: None</responseHeaders>
     <record-html-infos extractorRegExp="false" htmlType="0"/>
 </http-action>
